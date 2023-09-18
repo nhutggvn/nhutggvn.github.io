@@ -11,7 +11,7 @@
 <string>https://ultralow.dns.nextdns.io/6ba7f1</string>
 </dict>
 <key>PayloadDisplayName</key>
-<string>Bước 2: Anti Thu Hồi GAME VIETSO1</string>
+<string>Bước 2: Anti Thu Hồi GAME GG</string>
 <key>PayloadIdentifier</key>
 <string>3333333</string>
 <key>PayloadType</key>
@@ -30,7 +30,7 @@
 <string>https://ultralow.dns.nextdns.io/91b88e</string>
 </dict>
 <key>PayloadDisplayName</key>
-<string>Bước 1: Dùng Xác Thực Game VIETSO1</string>
+<string>Bước 1: Dùng Xác Thực Game</string>
 <key>PayloadIdentifier</key>
 <string>11111111</string>
 <key>PayloadType</key>
@@ -42,9 +42,9 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>AntiIOS pay2.gtvietso1.com - Bước 1 : truy cập https://ocsp.apple.com/ - Bước 2 : Safari báo không thể kết nối hoặc không hợp lệ - là đã cài thành công ngược lại báo Not Found là làm sai - Bước 3 : Để nguyên cấu hình : Xác Thực Game - Bước 4 : Vào game chơi ok rồi chuyển cấu hình - Bước 5 : Chuyển DNS : Anti Thu Hồi Game - Vào chiến thôi chờ gì nữa ! - Cấu hình được cung cấp bởi Admin - Nhóm zalo : https://zalo.me/g/fvlcsl956 - Cấu hình Chặn thu hồi vĩnh viễn </string>
+<string>AntiIOS - Bước 1 : truy cập https://ocsp.apple.com/ - Bước 2 : Safari báo không thể kết nối hoặc không hợp lệ - là đã cài thành công ngược lại báo Not Found là làm sai - Bước 3 : Để nguyên cấu hình : Xác Thực Game - Bước 4 : Vào game chơi ok rồi chuyển cấu hình - Bước 5 : Chuyển DNS : Anti Thu Hồi Game - Vào chiến thôi chờ gì nữa ! Cấu hình Chặn thu hồi vĩnh viễn </string>
 <key>PayloadDisplayName</key>
-<string>pay2.gtvietso1.com ANTI Thu Hồi</string>
+<string>GG ANTI Thu Hồi</string>
 <key>PayloadIdentifier</key>
 <string>VIETSO1</string>
 <key>PayloadRemovalDisallowed</key>
