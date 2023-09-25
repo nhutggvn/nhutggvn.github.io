@@ -1,0 +1,286 @@
+*:not(i) {
+    font-family: google sans, sans-serif
+}
+
+.jzonLogo {
+    width: 70%
+}
+
+.jzonShortDescribe {
+    font-weight: 700
+}
+
+.jzonInput {
+    margin-top: 25px;
+    margin-bottom: 10px
+}
+
+.jzonTitle span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #2979ff
+}
+
+.jzonTitle i {
+    color: #ffa900;
+    font-size: 18px;
+    margin-right: 10px
+}
+
+.jzonDescribe {
+    margin-top: 17px
+}
+
+.jzonShowListBtn {
+    margin-top: 15px
+}
+
+.jzonShowListBtn a {
+    padding-left: 27px;
+    padding-right: 27px
+}
+
+.jzonCard {
+    cursor: pointer
+}
+
+.jzonMsgClick {
+    margin-top: 20px
+}
+
+.jzonList {
+    margin-top: 10px
+}
+
+.jzonList h3 {
+    font-weight: 700
+}
+
+.jzonList h3 i {
+    color: #ffa900;
+    font-size: 15px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 17px
+}
+
+.jzonFigure {
+    padding-top: 17px;
+    display: inline-block
+}
+
+.jzonAvatar {
+    border-radius: 100% !important;
+    width: 100px;
+    display: block;
+    height: 100px;
+    object-fit: cover;
+    margin: auto
+}
+
+.jzonFigureImg {
+    margin-bottom: .5rem;
+    line-height: 1
+}
+
+.jzonFluidImg,
+.jzonThumbnailImg {
+    max-width: 100%;
+    height: auto
+}
+
+.jzonFigureCaption {
+    font-size: .875em;
+    color: #757575
+}
+
+.jzonFee {
+    font-size: 13px
+}
+
+.jzonNameUser {
+    color: #404040;
+    font-size: 15px;
+    padding: 1px 15px;
+    display: block;
+    font-weight: 700;
+    border-radius: 100px;
+    margin-bottom: 5px
+}
+
+.jzonShadowAvatar {
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05) !important;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05) !important
+}
+
+.jzonProfile:hover {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19) !important
+}
+
+.jzonViewer {
+    width: fit-content;
+    border-radius: 5px;
+    color: #92acdc;
+    display: block;
+    margin-top: 5px
+}
+
+.jzonProfileImg {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 10%
+}
+
+@media only screen and (max-width:600px) {
+    .jzonProfileImg {
+        display: block;
+        margin: 0 auto 20px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 30%
+    }
+}
+
+.tmanh_profile {
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px
+}
+
+.jzonProfileAction .nut1 {
+    text-align: right
+}
+
+.jzonProfileAction .nut2 {
+    text-align: left
+}
+
+.jzonProfileAction .jzonProfileIcon1 {
+    margin-right: 8px
+}
+
+.jzonProfileAction .jzonProfileIcon2 {
+    margin-right: 8px
+}
+
+.jzonProfileInfo {
+    margin-top: 40px
+}
+
+.jzonProfileInfo .jzonProfileInfoTitle {
+    font-weight: 700;
+    text-transform: capitalize
+}
+
+.jzonProfileItems {
+    font-size: 17px
+}
+
+.jzonProfileItems i {
+    margin-right: 10px
+}
+
+.jzonProfileBorder {
+    border-color: #167dc2 !important
+}
+
+.jzonProfileWatermark {
+    position: absolute;
+    right: 6%;
+    top: 69%;
+    opacity: .2;
+    width: 300px
+}
+
+@media screen and (max-width:374px) {
+    .jzonProfileWatermark {
+        width: 200px
+    }
+}
+
+@media screen and (max-width:413px) {
+    .jzonProfileWatermark {
+        right: 50px;
+        top: 126%
+    }
+}
+
+.jzonProfileWarn {
+    display: block;
+    position: relative
+}
+
+.anhdaidien {
+    width: 100px;
+    height: 100px;
+    border-radius: 100rem;
+    margin: -14px auto 0;
+    margin-bottom: 20px
+}
+
+.anhdaidien2 {
+    width: 100%;
+    height: 100%;
+    -webkit-object-fit: cover;
+    object-fit: cover;
+    border-radius: inherit
+}
+
+#jzonButtonFooter {
+    display: none
+}
+
+#jzon2,
+#jzon3 {
+    display: none
+}
+
+@media screen and (max-width:639px) {
+    #jzonButtonFooter {
+        display: block;
+        text-align: center;
+        padding: 15px 0;
+        position: fixed;
+        z-index: 10;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        color: #fff;
+        font-weight: 700
+    }
+    #jzonCredit {
+        display: none
+    }
+    #jzon1,
+    #jzon4 {
+        display: none
+    }
+    #jzon2,
+    #jzon3 {
+        display: block
+    }
+}
+
+.jzonBtn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #12263f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .5rem .75rem;
+    text-align: center;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle
+}
