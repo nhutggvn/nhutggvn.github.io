@@ -24,6 +24,7 @@
     <link rel="manifest" href="https://bio.link/manifest.json">
     <link rel="dns-prefetch" href="https://analytics.bio.link">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
     <style>
         body,
@@ -4455,37 +4456,13 @@
     </style>
 
     <style>
-        @font-face {
-            font-family: 'MintGrotesk';
-            font-weight: 400;
-            src: url("https://cdn.bio.link/themes/fonts/MintGrotesk-Medium.woff") format("truetype");
-        }
-
-        @font-face {
-            font-family: 'MintGrotesk';
-            font-weight: 400;
-            src: url("https://cdn.bio.link/themes/fonts/MintGrotesk-Medium.woff") format("truetype");
-        }
-
-        @font-face {
-            font-family: 'MintGrotesk';
-            font-weight: 700;
-            src: url("https://cdn.bio.link/themes/fonts/MintGrotesk-Bold.woff") format("truetype");
-        }
-
-        @font-face {
-            font-family: 'MintGrotesk';
-            font-weight: 700;
-            src: url("https://cdn.bio.link/themes/fonts/MintGrotesk-Bold.woff") format("truetype");
-        }
-    </style>
-    <style>
-        .page-bg {
-            background: #FFFFFF;
+        .page-image {
+            object-position: bottom;
         }
 
         .display-image {
             border-radius: 50%;
+            box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(24, 39, 75, 0.05);
         }
 
         .page-title {
@@ -4504,12 +4481,12 @@
         }
 
         .page-item-each {
-            color: #000000;
-            font-family: 'MintGrotesk', sans-serif;
+            color: #FFFFFF;
+            font-family: 'DM Sans', sans-serif;
             font-size: 16px;
-            font-weight: 400;
-            text-transform: none;
-            border-radius: 4px;
+            font-weight: 600;
+            text-transform: capitalize;
+            border-radius: 30px;
             min-height: 60px;
         }
 
@@ -4522,27 +4499,25 @@
         }
 
         .page-item-wrap:hover {
-            box-shadow: none;
-            transform: translate(0.25rem, 0.25rem);
+            transform: translate3d(0px, 0px, 0px) scale(1.015);
         }
 
         .page-item-wrap {
-            box-shadow: 4px 4px 0 #222222;
-            transition-property: all;
-            transition-duration: 0.14s;
-            transition-timing-function: ease-out;
-            transition-delay: 0s;
+            backdrop-filter: blur(5px);
+            font-weight: 600;
+            backdrop-filter: blur(36px);
+            font-weight: 600;
         }
 
         .page-item {
-            border: 2px solid #000000;
-            background: #FFFFFF;
-            border-radius: 4px;
+            border: 0px solid #FFFFFF;
+            background: rgba(255, 255, 255, 0.075);
+            border-radius: 30px;
         }
 
         .share-btn {
-            border: 2px solid #000000;
-            background: #FFFFFF;
+            border: 0px solid #FFFFFF;
+            background: rgba(255, 255, 255, 0.075);
             border-radius: 50%;
         }
 
@@ -4562,7 +4537,7 @@
         }
 
         .share-btn-blog:hover {
-            background: #FFFFFF;
+            background: #1e3039;
             transition: all 0.3s ease-in-out;
         }
 
@@ -4577,28 +4552,28 @@
 
         .embed-wrap iframe,
         .embed-wrap-inside {
-            border-radius: 4px;
+            border-radius: 0px 0px 22px 22px;
         }
 
         .link-each-image,
         .page-item-wrap {
-            border-radius: 4px;
+            border-radius: 30px;
         }
 
         .page-text-font {
-            font-family: 'MintGrotesk', sans-serif;
-            text-transform: none;
+            font-family: 'DM Sans', sans-serif;
+            text-transform: capitalize;
         }
 
         .page-item-btn {
-            background: #000000;
-            color: #FFFFFF;
+            background: #FFFFFF;
+            color: #1e3039;
             font-size: 14px;
             font-style: normal;
         }
 
         .page-text-color {
-            color: #000000;
+            color: #FFFFFF;
         }
 
         .page-text-color-secondary {
@@ -4608,52 +4583,52 @@
         .social-icon-fill path,
         .social-icon-fill circle,
         .social-icon-fill rect {
-            fill: #000000;
+            fill: #FFFFFF;
         }
 
         .page-overlay-btn {
-            border: 2px solid #000000;
+            border: 2px solid #FFFFFF;
         }
 
         .sub-icon path {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .featured-subscribers-full-width .sub-close path {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .sub-icon rect {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .blog-subsc-button,
         .blog-subsc-email {
-            background: #FFFFFF;
+            background: #1e3039;
             color: ;
             border: 1px solid;
         }
 
         .featured-subscribers-full-width {
-            background: #FFFFFF;
+            background: #1e3039;
         }
 
         .featured-subscribers-full-width .close-subsc:hover {
-            background: #FFFFFF;
+            background: #1e3039;
         }
 
         .featured-subscribers-full-width .subsc-email:focus,
         #blog_subsc_email:focus,
         .blog-post-content #post-subsc-email:focus {
             background: none;
-            border: 1px solid #000000;
+            border: 1px solid #FFFFFF;
             transition: all 0.3s ease-in-out;
         }
 
         .featured-subscribers-full-width .subsc-email,
         #blog_subsc_email,
         #post-subsc-email {
-            color: #000000;
+            color: #FFFFFF;
         }
 
         .featured-subscribers-full-width .subsc-pag-title,
@@ -4664,7 +4639,7 @@
         .featured-subscribers-full-width .redirect-to-blog,
         .blog-subsc-button #blog-subscribe-btn-text,
         .blog-subsc-email::placeholder {
-            font-family: 'MintGrotesk', sans-serif !important;
+            font-family: 'DM Sans', sans-serif !important;
         }
 
         .featured-subscribers-full-width .subsc-bottom {
@@ -4673,33 +4648,33 @@
 
         .featured-subscribers-full-width .subsc-button,
         .blog-subsc-button {
-            background: #000000;
+            background: #FFFFFF;
             border: 1px solid;
-            color: #FFFFFF;
+            color: #1e3039;
             height: 40px;
             padding-left: 16px;
             padding-right: 16px;
         }
 
         .blog-post-content #post-subscribe-btn {
-            background: #000000;
-            color: #FFFFFF;
+            background: #FFFFFF;
+            color: #1e3039;
         }
 
         .featured-subscribers-full-width .subsc-button>.bl-circle-loader,
         .blog-subsc-button>.bl-circle-loader {
-            border-top: 3px solid #FFFFFF;
-            border-right: 3px solid #FFFFFF;
+            border-top: 3px solid #1e3039;
+            border-right: 3px solid #1e3039;
         }
 
         .featured-subscribers-full-width .subsc-email {
-            background: #FFFFFF;
+            background: #1e3039;
             border: 1px solid;
             height: 40px;
         }
 
         .blog-post-content #post-subsc-email {
-            background: #FFFFFF;
+            background: #1e3039;
             border: 1px solid;
         }
 
@@ -4711,17 +4686,17 @@
 
         .redirect-to-blog:hover,
         .redirect-to-blog:hover svg path {
-            color: #000000;
+            color: #FFFFFF;
             transition: all 0.3s ease-in-out;
         }
 
         .featured-subscribers-full-width .subsc-pag-title {
-            color: #000000;
-            /* font-family: 'MintGrotesk', sans-serif !important; */
+            color: #FFFFFF;
+            /* font-family: 'DM Sans', sans-serif !important; */
         }
 
         .featured-subscribers-full-width .featured-subscribers-inside {
-            background: #FFFFFF;
+            background: #1e3039;
         }
 
         .featured-subscribers-full-width .featured-head {
@@ -4730,7 +4705,7 @@
         }
 
         .featured-subscribers-full-width .verify-title {
-            color: #000000;
+            color: #FFFFFF;
         }
 
         .featured-subscribers-full-width .subsc-email:focus {
@@ -4745,7 +4720,7 @@
         .blog-item:hover,
         .blog-item-detailed:hover,
         .blog-item-left:hover {
-            background-color: #FFFFFF;
+            background-color: #1e3039;
         }
 
         .blog-item-divide {
@@ -4773,7 +4748,7 @@
         }
 
         .blog-item-detailed:hover .blog-read-more {
-            background: #FFFFFF;
+            background: #1e3039;
         }
 
         .post-body-font-size {
@@ -4789,21 +4764,21 @@
         }
 
         .post-blog-mode {
-            background: #FFFFFF;
-            color: #000000;
+            background: #1e3039;
+            color: #FFFFFF;
         }
 
         .post-blog-mode .post-back {
-            color: #000000;
+            color: #FFFFFF;
         }
 
         .post-blog-mode .post-back:hover,
         .newsletter-share:hover {
-            background: #FFFFFF;
+            background: #1e3039;
         }
 
         .post-blog-mode .sub-icon path {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .post-blog-mode .page-item {
@@ -4814,11 +4789,11 @@
 
         .post-blog-mode .post-title,
         .post-blog-mode .post-details-top {
-            color: #000000;
+            color: #FFFFFF;
         }
 
         .post-blog-mode .post-subscribe-msg {
-            color: #000000;
+            color: #FFFFFF;
         }
 
         .post-blog-mode .post-subscribe-wrapper {
@@ -4844,45 +4819,45 @@
         }
 
         .share-icon path {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .share-icon rect {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .post-share-btn {
-            border: 2px solid #000000;
-            background: #FFFFFF;
+            border: 0px solid #FFFFFF;
+            background: rgba(255, 255, 255, 0.075);
             border-radius: 50%;
         }
 
         .post-share-btn .sub-icon path {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .post-share-btn .sub-icon rect {
-            stroke: #000000;
+            stroke: #FFFFFF;
         }
 
         .post-details-top,
         .post-area {
-            color: #000000;
-            font-family: 'MintGrotesk', sans-serif;
+            color: #FFFFFF;
+            font-family: 'DM Sans', sans-serif;
         }
 
         .post-description {
-            color: #000000;
-            font-family: 'MintGrotesk', sans-serif;
+            color: #FFFFFF;
+            font-family: 'DM Sans', sans-serif;
         }
 
         .post-item-each {
-            color: #000000;
-            font-family: 'MintGrotesk', sans-serif;
+            color: #FFFFFF;
+            font-family: 'DM Sans', sans-serif;
             font-size: 16px;
-            font-weight: 400;
-            text-transform: none;
-            border-radius: 4px;
+            font-weight: 600;
+            text-transform: capitalize;
+            border-radius: 30px;
             min-height: 60px;
         }
     </style>
@@ -4902,12 +4877,14 @@
         <input type="hidden" value="446393" id="stats-id">
         <input type="hidden" value="https://stats.bio.link" id="stats_url">
 
-        <div class="page-bg"></div>
+        <img class="page-image" data-src="https://cdn.bio.link/themes/backgrounds/rainy_night.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEyklEQVRYhXWW3ZobuQ1ED0DKEzs3eZu8/xs5ye6OpSZRuSD40/Ks/NE96m4ShUIVILOPf4tq8N3hR+Gf3ws/vlc+PgqPj8rjUSjVseKYGwCBiAhaD67WebXOr6vxx6vRrgZXg6tDD4gAExjgQDHcjYcbxcAxGw/3JT92/H1/dt4/v5gdb5odN7/cCUClAD42uIGb4bnP1nF2O0Lzntm+mmHmYJGbDdwHAxwHQu4bZ1SKMbgwqhvFLEHY8Y/1PwYukPFbcLcYQd3zpZmndhkG7ZksVKpDgVKMhzvVJohkI687ASNsnDeeO27CXbiXUWcXFHYptHVgGdhTEtUfjjt8Kz6EkSwUMwqDicWGGTLDZchEzMNyFQdzUEmK1BOALRYG4doMfFTHDR7FBwNuFHOKOW5HSWzIWOTZkNlv1otDKdBEBgf6BBCAKKZMENxE/VYGA7UMDVT3GwtuTsEwfIlrHKWkfjBSHLxA1QQwHdATsVEQxSJ1LwpG/VaHE0sxavHM/q0MtsWmtJewUXdpM5BArBhSBocNQGfw1EAtCcCNMrN3T3p90b9KsABAQYQLl20mygDSyuHbMFyDnZL7PFctZWRWygTwxkCWYZZAR5MZZQD3wJXi19BC02lDKNJ4JnAiXWDU4icDmcktex8uMANLBsyGCEn7yZf1PcBdmECaxRIltKznc69ELW7ZtI6ANyDJgCUDB4DAMIS5RnCbWhBFos3az16Blq3n+9UmAJtB35cvEX7JAIYTmG2xnqLluLf6iXZjq6vLGUdb/fulHC6rFUt7JpBz5K15+Rw3mt9td8Ipkh3kdyBnCTBfQ8pRZnLs5b7Q8d1mR16Thfo2g3dgfs+eBGHcZgtmQ2g2VS+tZSnC2zxaQI06pDqH7BdAzG/1XAAy4LiOhQIUWF5R/iCJfD5MfDQIUTW8kp1LM/oONsdXAsFsZYJpgVkZR6AIFB2ij78nGDaIWboa0qrnW+84gOzgCzzjt8emOzJgBu6d6H0DWsndS14jAnMbTA0YOfHmD5C7nVgZ7yazqe7QO2ptrD4ZEDL9/jPNoPaIYQ83it5YyPeUzlgHpLj4KnhvRLuI1qB3iBjT00CzU2mDqK3HaEBhRIhYDAwWtMpwamcDGatDNNQv1F6oXcTVoHWQBgA3KCXPLmOfGfXqHZcnA0HoAHHSsBhIP+Ub0j17XRfxeqHr2gDMiFIGbp8JjHFZXy0oRXgxaojIMgSTAXb7tQR08/tQvHqD9kLXk/56wvOVAIBSiEdFPpiQ+zqi/mqdKsOL81DQ3xhQ0j91sGyb44hUPf1K6p/Er0/4fMKrDdYeD4IPwh2VskonRH1dnUtOfQQ9ZglYOuB0xEmANMAcDOh6oucn/fMP+M9fcF1AhR/fCTdUC4o6XJFOqlwdIZ7d+UeWIHQyMEFMAbLqP0Ck/6cAn5/Ef3/C9b9t9r/+RXyr6OMxHJNWGxP1FXAFzy6agn4TYDp9NY57I4LZbtMF7UU8/4TXERyAn+jXc/QF3SVeefWhzAh6iBC7GTHtN+x4Tgwd7VcK1PsQ4edPvvosAMnAEiFN0MbAaFnXbTLubMxysK+rz6uj/kKf15cAYADY2hl3R1vq2g1jLXH27K8/ecoxC96G6vG5tvjWbvF/g9ExtZWdO2YAAAAASUVORK5CYII="
+            alt="background" />
+        <canvas id="bg-canvas" class="background-overlay"></canvas>
 
 
         <div id="nsfw_overlay" class="page-overlay flex-both-center text-center">
             <div>
-                <svg width="81" height="70" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31.445 44.048a12.672 12.672 0 01-3.753-9.043A12.818 12.818 0 0140.53 22.159c3.517 0 6.755 1.424 9.047 3.753M53.13 37.281a12.812 12.812 0 01-10.294 10.314" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M18.844 56.647C12.404 51.592 6.952 44.207 3 35.002c3.992-9.247 9.482-16.672 15.962-21.768C25.4 8.138 32.829 5.371 40.53 5.371c7.745 0 15.17 2.808 21.65 7.94M70.751 22.236c2.792 3.709 5.246 7.99 7.311 12.765-7.98 18.489-22.083 29.626-37.53 29.626a32.38 32.38 0 01-10.273-1.676M72.531 3l-64 64" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <svg width="81" height="70" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31.445 44.048a12.672 12.672 0 01-3.753-9.043A12.818 12.818 0 0140.53 22.159c3.517 0 6.755 1.424 9.047 3.753M53.13 37.281a12.812 12.812 0 01-10.294 10.314" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M18.844 56.647C12.404 51.592 6.952 44.207 3 35.002c3.992-9.247 9.482-16.672 15.962-21.768C25.4 8.138 32.829 5.371 40.53 5.371c7.745 0 15.17 2.808 21.65 7.94M70.751 22.236c2.792 3.709 5.246 7.99 7.311 12.765-7.98 18.489-22.083 29.626-37.53 29.626a32.38 32.38 0 01-10.273-1.676M72.531 3l-64 64" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 <h1 class="page-text-color mt-32 text-center page-overlay-title">Sensitive Content</h1>
                 <div class="text-fs-16 page-text-color mt-8 text-center page-overlay-text" style="font-family: sans-serif">You must be of a legal age to view this content
                 </div>
@@ -4964,7 +4941,7 @@
 
 
             <h1 class="page-title page-text-color page-text-font mt-16 text-center">
-                Nguyễn Minh Nhựt
+                Nguyễn Minh Nhựt(GG)
             </h1>
             <h2 class="page-bioline text-fs-16 page-text-color page-text-font mt-12 ln-h-22 text-center">
                 Uy Tín Ổn Định Lâu Dài &amp; Hiệu Quả
@@ -4976,7 +4953,7 @@
                     <svg class="social-icon-fill" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.7998 28.2998C19.3998 28.2998 18.9998 27.9998 18.9998 27.4998V20.1998C18.9998 18.9998 18.9998 18.4998 18.4998 17.9998C18.2998 17.7998 18.1998 17.4998 18.2998 17.1998C18.3998 16.8998 18.5998 16.6998 18.8998 16.6998C22.4998 16.2998 24.6998 15.0998 24.6998 9.99982C24.6998 8.69982 24.1998 7.39982 23.2998 6.49982C23.0998 6.29982 22.9998 5.99982 23.0998 5.69982C23.2998 5.09982 23.3998 4.59982 23.3998 3.99982C23.3998 3.59982 23.2998 3.09982 23.1998 2.69982C22.6998 2.79982 21.5998 2.99982 19.7998 4.19982C19.5998 4.29982 19.3998 4.29982 19.1998 4.29982C16.7998 3.69982 14.1998 3.69982 11.7998 4.29982C11.5998 4.39982 11.3998 4.29982 11.1998 4.19982C9.3998 3.09982 8.2998 2.79982 7.7998 2.79982C7.6998 3.19982 7.5998 3.59982 7.5998 4.09982C7.5998 4.69982 7.6998 5.29982 7.8998 5.79982C7.9998 6.09982 7.8998 6.39982 7.6998 6.59982C7.1998 7.09982 6.8998 7.59982 6.5998 8.19982C6.3998 8.79982 6.1998 9.39982 6.1998 10.0998C6.1998 15.0998 8.3998 16.3998 11.9998 16.7998C12.2998 16.7998 12.4998 16.9998 12.5998 17.2998C12.6998 17.5998 12.5998 17.8998 12.3998 18.0998C11.9998 18.4998 11.7998 19.2998 11.8998 20.4998V22.4998V22.5998V27.5998C11.8998 27.9998 11.5998 28.3998 11.0998 28.3998C10.5998 28.3998 10.2998 28.0998 10.2998 27.5998V23.5998C6.9998 24.1998 5.6998 22.1998 4.8998 20.7998C4.4998 20.0998 4.0998 19.4998 3.6998 19.3998C3.2998 19.2998 3.0998 18.8998 3.1998 18.4998C3.2998 18.0998 3.6998 17.8998 4.0998 17.9998C5.0998 18.2998 5.6998 19.1998 6.1998 20.0998C7.0998 21.4998 7.7998 22.7998 10.3998 22.1998V20.7998C10.2998 19.7998 10.3998 18.9998 10.5998 18.3998C7.4998 17.7998 4.5998 16.1998 4.5998 10.3998C4.5998 9.49982 4.7998 8.69982 5.0998 7.89982C5.4998 6.99982 5.8998 6.39982 6.2998 5.89982C6.1998 5.29982 6.0998 4.69982 6.0998 3.99982C6.0998 3.19982 6.2998 2.39982 6.5998 1.69982C6.6998 1.49982 6.8998 1.29982 7.0998 1.29982C7.3998 1.19982 8.7998 0.999818 11.7998 2.79982C14.2998 2.19982 16.8998 2.19982 19.2998 2.79982C22.2998 0.999818 23.6998 1.19982 23.9998 1.29982C24.1998 1.39982 24.3998 1.49982 24.4998 1.69982C24.7998 2.39982 24.9998 3.19982 24.9998 3.99982C24.9998 4.59982 24.8998 5.29982 24.7998 5.89982C25.7998 7.09982 26.3998 8.49982 26.3998 10.0998C26.3998 15.8998 23.5998 17.5998 20.4998 18.0998C20.6998 18.7998 20.6998 19.4998 20.6998 20.1998V27.4998C20.5998 27.9998 20.1998 28.2998 19.7998 28.2998Z" fill="white"/></svg>
                 </div>
                 <div class="page-social relative">
-                    <a class="social-icon-anchor" aria-label="social-icon" data-id="email" data-type="social_link" target="_blank" rel="noopener nofollow" href="/cdn-cgi/l/email-protection#cca2a4b9b8e2a2abb9b5a9a2a1a5a2a4e2abab8caba1ada5a0e2afa3a1"></a>
+                    <a class="social-icon-anchor" aria-label="social-icon" data-id="email" data-type="social_link" target="_blank" rel="noopener nofollow" href="/cdn-cgi/l/email-protection#3d5355484913535a4844585350545355135a5a7d5a505c5451135e5250"></a>
                     <svg class="social-icon-fill" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 3.25C1.48122 3.25 0.25 4.48121 0.25 6V24.4C0.25 25.9188 1.48122 27.15 3 27.15H27C28.5188 27.15 29.75 25.9188 29.75 24.4V6C29.75 4.48122 28.5188 3.25 27 3.25H3ZM1.75 6C1.75 5.30964 2.30964 4.75 3 4.75H27C27.6904 4.75 28.25 5.30964 28.25 6V24.4C28.25 25.0904 27.6904 25.65 27 25.65H3C2.30964 25.65 1.75 25.0904 1.75 24.4V6ZM24.4101 10.2003L15.4501 16.9203C15.1834 17.1203 14.8167 17.1203 14.5501 16.9203L5.59008 10.2003C5.25871 9.95178 5.19156 9.48168 5.44008 9.15031C5.68861 8.81894 6.15871 8.75178 6.49008 9.00031L15.0001 15.3828L23.5101 9.00031C23.8415 8.75178 24.3116 8.81894 24.5601 9.15031C24.8086 9.48168 24.7415 9.95178 24.4101 10.2003Z" fill="white"/></svg>
                 </div>
                 <div class="page-social relative">
@@ -4988,14 +4965,6 @@
                     <svg class="social-icon-fill" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.25 15C0.25 6.8538 6.8538 0.25 15 0.25C23.1462 0.25 29.75 6.8538 29.75 15C29.75 23.1462 23.1462 29.75 15 29.75C6.8538 29.75 0.25 23.1462 0.25 15ZM15 1.75C7.68223 1.75 1.75 7.68223 1.75 15C1.75 22.0661 7.28116 27.8403 14.25 28.2291V17.75H10V16.25H14.25V13C14.25 10.3766 16.3766 8.25 19 8.25H20V9.75H19C17.2051 9.75 15.75 11.2051 15.75 13V16.25H20V17.75H15.75V28.2291C22.7188 27.8403 28.25 22.0661 28.25 15C28.25 7.68223 22.3178 1.75 15 1.75Z" fill="white"/></svg>
                 </div>
             </div>
-			
-			<div class="mt-24">
-          <div
-            class="text-center page-text-font page-text-color page-item-title mt-32"
-          >
-            Trò chơi không có bản quyền chính thức, hãy cân nhắc kỹ trước khi tham gia
-
-          </div>
 
             <div class="mt-24">
                 <div class="page-item-wrap relative ">
@@ -5005,7 +4974,7 @@
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII="
                                         alt="3107"/>
                                                                 <span class="item-title text-center">3107</span>
-                                <svg class="embed-ind-arrow-icon embed-ind-arrow" fill="#000000" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC keaUzC">
+                                <svg class="embed-ind-arrow-icon embed-ind-arrow" fill="#FFFFFF" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC keaUzC">
     <path d="M8.006 11c.266 0 .486-.106.695-.323l4.061-4.21A.807.807 0 0013 5.87a.855.855 0 00-.846-.87.856.856 0 00-.626.276L8.006 8.957 4.477 5.276A.87.87 0 003.852 5 .86.86 0 003 5.869c0 .235.087.428.243.599l4.062 4.215c.214.217.434.317.7.317z"></path>
 </svg>                            </a>
 
@@ -5016,77 +4985,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="page-item-wrap relative ">
-                    <div class="page-item flex-both-center absolute"></div>
-                    <a class="page-item-each py-10 show-article-embed cursor-pointer flex-both-center relative" href="javascript:void(0)" data-embedId="1613538" data-type="page_item">
-                                                                <span class="item-title text-center">Truy cập thử xem đã anti thành công chưa</span>
-                                <svg class="embed-ind-arrow-icon embed-ind-arrow" fill="#000000" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC keaUzC">
-    <path d="M8.006 11c.266 0 .486-.106.695-.323l4.061-4.21A.807.807 0 0013 5.87a.855.855 0 00-.846-.87.856.856 0 00-.626.276L8.006 8.957 4.477 5.276A.87.87 0 003.852 5 .86.86 0 003 5.869c0 .235.087.428.243.599l4.062 4.215c.214.217.434.317.7.317z"></path>
-</svg>                            </a>
-
-                    <div class="article-wrap collapsed" id="article-wrap-1613538">
-                        <div class="embed-wrap relative">
-                            <div class=" embed-wrap-preview ">
-
-                                <div id="embed-wrap-1613538" class="hidden article-embed-wrap font-inter font-weight-400 text-fs-14 ln-h-22">
-                                    <div class="article-embed-content embed-scroll">
-                                        <p><strong>Lưu Ý Không bật VPN và hack 4G khi dùng cấu hình DNS</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page-item-wrap relative ">
-                    <div class="page-item flex-both-center absolute"></div>
-                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://nhutnguyenminh2.github.io/sharebygg/" data-id="1604696" data-type="page_item">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-21/55KhUerV1TUoRDqvkcUByB0fATPdPiUQ.png"
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFOUlEQVRYhX2XbXLzOA6EnwbpN3vIOddcb88Ri0DvD0C2M5laVaGsKBLRaDY+qL/+/q8BBAQmBHHf0/eSEJq3hB0UoggSURYJlKGAcmEKnIhEPogkOIhDONGssPm89P4RIIEQ8fFvIxDEvOyxQLjh9X/8+gAk5B8uXtf2D9/qBcbBEsOIfrDgsUIEQRjSDTQN5WYFq6PwBDRcS7wAbb8i6SeSCMES7PldEiEhRS/IewuafnHcztOQFZT9BlGa4JoJfYS7646++e7oo50/AnaIHQ3gDaIVUoj8AHAKjk1WkRVkGVf1pnwC8c2m2WUN5SPEO/oFjyX+DIC9RCiIaBYaQDQAi8twypwyVzWYTJMZWIFr1FENgAHVDLgBIgiJHeN8wdcWf1awV7BCA6DtBnAsroKrzJVmlbgOHJmjoLK3yx4QaudC7ByV14gxQqyJ/muLrx18bfHYDSIiUMSbAcSpBvAss9OsAxEmjgkFZ4C6Akv4jhax08Ki81Etwh1qBrb4zyP4egR/BsBaA+CDgWuoXGnWqSboTL44oPqbClH1ziIsdk46eFQZEmv2/LGDPwPg6xE89voNALFL7IRIoxB3IbCjraIFKI2Akzv995mUqMmETwB/hoU3gGDvhSIgGsCxWCWiDKcT3kBhyiO+JZx3Cnf9wB8MCGZf+p0lsaMpf6ym/+sRPB79TCtAi5JYhihQarKjy3I6yAxyxFuh3v/O+QYB7Bw51F0apBbiaxtuayBrB7E6mmLStybN6Yp4SpwV7CXOrJV6V9NbgrbYx73IXdN1FyPBuoEMmNtiBQTkRwonbatgrWCten0vTa0Z0ExFxLDLvDrZfd0FKeajm5EVYi0R686YXmSJ3oqANRYCxdvxu/ze0Y8Icxbwuxt8NN43EOkTVHPv2YKY8n2/97JXk3sl3qScX79RGNv9zP3wDeZ++O/XP1vr7+vnt7cfjx8M2zavvz3Z4M+XB2D5fT+4fnxXn2v4/xq87ze/ABRlcImqIktkFlUiK1B6pp0Y1UNWW73Mv+0FoN73DIB7crHfC3RLhUyRKU6KODnTEFBQilcbzgPnwMniZJFZs0ZRn/YDRLGD6lSaKaYsMiETTsI54lqtfk2h0QwRJXMc3YgSrqu4ruKcHPsAkkXaA8Q9N9ps+Z7hjGuiLbgSrgPP1bNBqBnKAi2DPAwUV4lnmu9jnlfxvJLrNJDrBlJFZpKucV7DgKcoWrNfzcB1zPMyj+g0xZDudqu1GgDF4c3A9zHfp/i+ku/nGSDJldnbMlvi+geAGAAdobiOuSL4DrNkxKLKnFysbRSegUQcgnMDyAFwiu9n8rzyBeKcHDG/neNiLxqALKrgpLhCPI/ZEjHqzIyedq5AUT/a8TUDyXeaZzaA55V8fzg/mVQlrsTOBkCx44cGWvWX4IlYBHKn0TlmLb8non8ZyZ7VAJ6neGZyncN1krw6emfTT9UUjsmC8KQVkBJXwjdCI8yTxRUzDen3SHZ5hFvmWebKmn3v6CuLmtTyONcLgKtrO52KWeYA3wZKZIlHiB0mZBTdhH8wQDNwbK4yp4pzq74S346rUI1zCmF24DksdEPKgmsYcUxGSC1GFVJgdRVLiiRIw7E49vtc4HfxwYUq0UQue6zYn2c5G1I9TKIux8ndTt2HkmlVffwUiYeF+2Tkdk6L7aY7xmF4jjTuDrk/2+TdE3I6TWHC4/xHYx29fAB43zPwOiJRdKoXi+lar/Zs9n1IvCHUq4v2ffgD3bTpctPfIuxZNOf9ejXzdhAfLfk1jDAsY/4H9crw3s0rSlYAAAAASUVORK5CYII="
-                                        alt="4G"/>
-                                                                <span
-                                    class=" item-title text-center">4G</span>
-                            </a>
-                </div>
-                <div class="page-item-wrap relative ">
-                    <div class="page-item flex-both-center absolute"></div>
-                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://github.com/nhutnguyenminh2/reupgg" data-id="1595374" data-type="page_item">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-18/ix4aMVlTqXGGmaIRjHknF3VOmUlkPpef.png"
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACCUlEQVRYhe2X227EIAxEDTj//78L2H0aNHGAJJWq9qFIKNlwmcMAhk3u7vKLKf+m+D/AnwDQN5XNTHjNppRG/lEAM5Peu5iZmNmpLKUkOeeR3wC5+z2AmUlrTVprAyK6wAAMknMedb4F4O7SWpNa6wnC3QdEBCilTGFWzmwBIFprPUGwC+i4lHLKMxiGwHMJgHmH+OfzGRDsAjugqlJKuTwBg7oppdF2CdB7vzgAiN679N4vDqiqqKr03uU4DnF3MTNRVXF3KaWc2iwdcPchAhAGqLWOacCoSimjPsp4rUBcRMbiXAJgu925EAF2cSIuREBsARiEnQCAmQ0AVT0J55yltTbWh5lJzvnizHIKMH8RgmHQCe/3nPOoA1c4w4VHAAwRgaLdsYzbxFHz++Uw4kqz72/SrK/Yz3IbcsBYhVte4atwPIuAt2uAIWahFgdS3AUceHYQ/H4B4AZRGAEFo+ZFiCCEHMPyyo2pAywOYWw7lM8CEQMcx7F05BZgNnIW5GlYnQV3LmxDMY9qZj2iIE9ZPA1ZeLcetg5E8ZTS5VISp2t3DMejeAkACI7vHOXe3Ihmotz+FiCONH5joSc3oBiUtoEIgviN0Mp1IsBMPIZifNteSOACjzZ2shLn+hDjs+GRA0i4SnGHDLizO84/TkOIizz8X4ARshsAeJoYFPa/AuBnfH/TR0xf1plVOzCnivEAAAAASUVORK5CYII="
-                                        alt="gg"/>
-                                                                <span
-                                    class=" item-title text-center">gg</span>
-                            </a>
-                </div>
-                <div class="page-item-wrap relative ">
-                    <div class="page-item flex-both-center absolute"></div>
-                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://ocsp.apple.com/" data-id="1612661" data-type="page_item">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-24/lZeZMxqLuhpFN7V3je3exUFn6xQFYyxb.png"
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADFElEQVRYha2W226EMAxEZ9z+/xcXTx9sJ06ALbtqJASIYJ+MLwklCQ+H8gIA5vXJ0LgE+9DGv43vdyZ3BWp8qsLbAMJ/A4S1xyHwDcLb/TP3YemRArvTPkqBd5JJaUV6GAIflxoAoc3xEwiVZz1UoFbuElyCFBAEQRIgl0T4C0IS5ILkEB4oIABywQ+Hy+EVDxIEITOoIAwALyDyH0mAPO8PFfAD4fxwHHLIKw8IIyECoAHG2Z12YdKfoAVC+gNAB6AfHwDuDg9LAAjRYBRAAWYJsgIQFXcfABHGoLoHOALAD4f/NADPRBRhFJROmSGghXdL76FW1I/kGXsNoGuAzDwdDh2CDjUVFOEDoXRExuI7AMi8zSKeK081bgGOUmA61o9DpYAHADPjCoCGSEoDRGUM+tZTSuhFIxpFL8hLAc9KCDVCgegCcg+HIlyOSAnOyqgcaRBSPd8BqAA07hGOACkFAI8VK+IL1TOgTMYzQLufkrA1eCmdZ83WOzIHqGIQxIwoay4gz5BAYP7Qneu2D7QdZ2mbmt/Z3/tkYc5lPLKBoSFULtjJ8XidPyENjfdtRMXtBtq7hsWxoHsFrka2tGr9NVrFLY2H+c+cWiBaMF/shhqOuV1GxloYhWijBDlKkdWY9oMjS5m5JX8vH/szpxESMGOUGgTGBjCAjIRZzOHoC0wldBG0WKO4h2DbTFCGjNHuS9fshARhFgC09XmEitkX6hCC3JLTzg0AR1ulxz4jcc5JAGOcCYzEV4GyrrZY9mRMIwlxqwDIGVtxxltVXtP5okICIOUfO6e68RmUcxIastYBiOBXOY+9X20VRpsQDSAOKz3bFSztBFvfzgBdgcxwS3pPBWJaKWAgLRKw5EdJxeyEhDyPShvEdRnW3q6U31KFtvoeApIws+Y8jWhChPMOwYsk3MIwIBBNJ45j0znZITDelyXm7kivJlYltveBkwrpwGK9Rc/5eVWgd6uao9rU6ofkaowvALDkgqq0JNSJeKzcVgcnM93W1pVe7gWjaEhwdDROX1324an+rNq/2CjqM4Ff+XJeZq1xPYYAAAAASUVORK5CYII="
-                                        alt="ocsp"/>
-                                                                <span
-                                    class=" item-title text-center">ocsp</span>
-                            </a>
-                </div>
-                <div class="page-item-wrap relative ">
-                    <div class="page-item flex-both-center absolute"></div>
-                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://www.mediafire.com/folder/fdybkabjgt7mq/Cc" data-id="1612683" data-type="page_item">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-24/8STPaXr2aLqJguoQNEltmwi1s1G43nLh.png"
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEo0lEQVRYhW2XW3bjSAxDL1hyuve/p9nSnI7tIuaDrFI5PfZhZNmKAIJPyf/+Y9bLAkQS2OsYmADqN1kIEYjAyAAGG5xlmeAJmTgnmZN3TmYmMyfTSdrYJuofDTeNOv94+eOwT8zf35/f7Xv7Pv/x2wVZ3tntZTQHY9xH/S8XA1oAnGD5Ae5TncNsc5HZdy6Ji1xgTgL1lrVZ2Orf6z83YK4wzL/MObEnzmxS5sLvI/4ncHmYqC7eJEAI+rNtxBn7/EHiDbPAKy86N5wYczFfh/fRNkhXcIpAeUurEB3/5bls9JF8DZxv3FaflwpNoELwalmjFPBoXws8LbIJYqOWn539iZyM/wEnX/v4QeKDwHxuAmZgqkSSAp5o58QioJWBh/dyEnkSeDVw2SLhfDf4JIvA9yH/wFxb+uxekCTp6BCYaAI3cO4EU75hLsAn5BPns4kUgfT7VGARGBX7SjWSYBJMDyYlWTUi76pTFqHMRJmovS8SC/j7B4lXez9JkssfBB4d+2gr8NmluCR3XVRqZDaB8j5myz9fkN/4w5qE31WOZClwy7+8Hw1eLBOTXZe79BIyzcwiEZl4TrwJPDsE3zj/3CT8bAIVhsvz2RUwKq/UZchFkqVAJ+ZWIIXSRJb8OZPMScyJ50RNwgcJ8g/2n1LBL5I36Vll6N2AAnNhJe5sqE+Q3ejkOsk0OY3TeBrPbCsSzFV2z8P7P9iHCkwu52wYYWaBu2WXt/xJgclGKbJDkLOJLBLvJpB3OCruT/Czwb8xryJQs0CgvNvwx7tb/DGB/p4ti4AhiwgrJ7Ja8o47dYSlgGsMnBO4Zo4+pifW3fw+rMPgOxxKwyJzDB779mLBXRCFqG7Fq+0ikOrcKlJevx0vf9rP6VzeVTflaHY9zLnQ1TcdoFFHBqh2HilYm9DGlzob7zG+FTodWIC6ylce3UDoqksu86gbcoHK1ASKhJCKANmfBao/n3i9upkANXBc4AdoFkFFY9W0uYhfhwJfSI8i0USkQTh2OIRqJ5A3kSJT1xABHuAbvNp4g+sCvkAT5J8EHqAH0gPpIjSI3hHo5bQWUgiLCKFo0AiIcYNzQX71MiO8wPXuMOQi8LvZDeBCrULoKu8ZmwDtbQAxekNeloFO73lg5U42NApcibZxKKAo2XUdClydtVFJuFfyW4GIAtZocC4gC9wn+ESaSAmRFULgYvzu3I2+8EJRCgSjpGPUUpKx9+YYItr7cCkkryq6INbavqSfJXuDE5Wul+LXzk5tFcZWoG5YDyisCoB6MPFNQj4U0GqdK7d+eB6VxAguxtfReKLAYxAaePeF6D2wmlDgDkGgcIWgw1AlbIh1/dieEy4TKIwrB76qhKVWIBq8jveyqr0Ji0r4W4EoBRjsi1YHVGd8lOcsBYLOgXh0FfSzX8QRjuqG0av5JtBjuW50l2I9JY27RdMdU9l+eHX81em5qvzUXwReSkTXvGo++Oj3Coj0Bt8krCpX/INAbALETZxNQGxKUqmgJnL02W5m/XQUQqkWbrXlKBCiOeiWa3l+WhGIOwTLVv9vZT5fddOFy8dsACGsVaw9eI6ZoXN2CP4DCxm4oeJE3ZkAAAAASUVORK5CYII="
-                                        alt="Chứng Chỉ"/>
-                                                                <span
-                                    class=" item-title text-center">Chứng Chỉ</span>
-                            </a>
-                </div>
-                <div class="page-item-wrap relative ">
-                    <div class="page-item flex-both-center absolute"></div>
-                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://github.com/nhutnguyenminh2/TEL-setup-auto-update" data-id="1612699" data-type="page_item">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-24/WgF3gQkksr8of7hN5KQrpgj9U2Hdr4gM.png"
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADGElEQVRYhaWX3W7kIAyFzW+Stu//lJWqXkw1jSHsxfagg0mm3S4Smg4w9sexMdQ555pQizHK09OTLMsiOWeJMYr3XpxzIiLSWpNaq5RS5PPzU263m9zvd/lti3bAOSfe+9MuInIcR/8MIUiMk4n/A4BR7iGEDtBak+M4uiqtNSml/FqFCSClJCklyTlLzllSSj0MDFBKGcBqraKq/+Tcez8COOe642VZZFmWAQA7Po6jOwwh9PHX19cfO++2eTCEMOyeExGORKQrYMFUVd7f3791vq6rbNv2N8Q8EWPsIYACIH0EgDFVlY+Pj4ehSCn1U3YJcBUGBqi1DvID4OXlRd7e3i4Btm0blJ0AGAIAOech4aAAy19rlX3fZdu2S4AYY7cHm1MOcBhYDSs3gOBcVTv08/Oz3G63CWBd18H2KQBDwDknIgM454YTgbXrup4C8LGGvQHAez9AWDVYAZYeCYmec56ce+8Hx93HmQJnEHzkLICq9jUcun3fu23MTz4YgO8BuxAd61prp8D4XNd1AkDecJ9CcHUZ4cfOuVMAXgcluEFB7s458VaBR50B7LiFRfg4tGe/vwS4GvsOsEv7lYzOuaGSsm0RmXPAttZa7/zdNgsSQpCcs9Rahypq2ykAnBzHMfzN8zzHQIBAGLiKInfY3vQewCR6rVVqrb0G4BhytxAcBvyWnTNEZHIGgGMUGuwKazBnQRji7MnG9ocQ4Njwzksp/dLBHAOUUiYQbIZrSWtteszg+ykAHJdSejGBU1uCVbUDcCj4VGAMzrGhoRDFGAdpVVX2fZ9uQDQODzog7GmA3LwJPGyjiAxlFgrwe4/J7aNEVbsKtdZLBSA/QGAr8pOLLxd+7eAsWwCGYAWgAgDsqQGgc07itm1dKgawrx8LwCpwQloHXP3Ojm1MKXVaxFZVB+nthcPN1gwOgS29eDciZ76UjR0ACiBOnAsMYA3byonGEPxuvN/vXalo73jsAklnr2N7nTKMhTgLgap25yIikSXlMmx3wRCsyNUtx7cnq2T/Z4i8wEJclVb+xMPkEQTngG1/AC0jQYEuHEDOAAAAAElFTkSuQmCC"
-                                        alt="Termux"/>
-                                                                <span
-                                    class=" item-title text-center">Termux</span>
-                            </a>
                 </div>
                 <div class="page-item-wrap relative ">
                     <div class="page-item flex-both-center absolute"></div>
@@ -5110,23 +5008,41 @@
                 </div>
                 <div class="page-item-wrap relative ">
                     <div class="page-item flex-both-center absolute"></div>
-                    <a class="page-item-each py-10 show-article-embed cursor-pointer flex-both-center relative" href="javascript:void(0)" data-embedId="1613465" data-type="page_item">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-24/8hT8vav8w6riJgXw92eatPtaIaJy0CkF.png"
+                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://raw.githubusercontent.com/nhutnguyenminh2/nhutnguyenminh2.github.io/main/anti.mobileconfig" data-id="1615064" data-type="page_item">
+                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-25/81ecQPtY5xUvtnpexfb3jBD6UGQqyrAQ.png"
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD0klEQVRYhbWX25LqOAxF15Zt/v9zD8SW5kF2HLqBw0zVpMpFOtVES1tXFBHBl5cPcM/7AARIYAayb9/yfH3/tUijABGv//4vV/3afkB4KvCkmaUKkEqg/wMgYIw8C2CFwD0NR+T5d+GI7wCW8d7B3c88AGEmzHh5JD4rEl8o4NPwcQRjOGP4qYIkJGFmmIlSwAqUHxDr/LQe3yiQngfHMeh9MEYwRvwCKGUd4SWNl/IK4pqxfwEYHY4DjmOcp3c/AQAkOwFqXZ9KENcPiDjPgvgMMKD3NPx4dB6PvB8jZh4Ik7CyAWo13NencIdShFlMkDhhPgLs2E/j9879MXg8UoUFIOlivNBaAiyICBGR4Tir5IT4ALC8XwrcH537n4ToRzA8a1EX+Vtz3AvhRkSe3et2FsryacS7HIjfAI9H537v/LkPjmPngcko1Wi14COIiDROYSfccz0a4J8UcOcsud6d4+gcj6nCPcMwehAhZKIWYzTHwwkcqEiBqWAKzIRkU/YEsSnMWwD3BTAmRBp+3BOi91mKthIuvV3DqVjJChiBDcMM3DXjr7OKXgJEgHv8gBj0o/M4Oo/D6YfjMwQ+LI1bZnyv0KuoXYyyHEoAM80w6TNAhM+2m2f4yLD0rUrOgfTcCtQi+hBjiDEGwzUHmHD3mZh7bnwA8EkZ894JDzwyzu5jKpQN1ZaRcMLnCUsnQkQ4YPN93wCQJbKz+HocrXut3I797M2JN0vDSwARl7Y526gFZpGDpkDxQM4cQjGHz+x2Fr863p4DaWGV59tGtAyvqVZmjGuFNibm3AVqFbXlZ6mZiOdEXA4QZwnu3vCmEf02rmlEtCEiDDPfZVhEu4lbE61qgqzxrKmKXo7llwBpWFPefGGr4nYT7oaAWjkBSjFaM243o91EazonYimfxvKbEJzNZBlvot+M4QZhFCNLLMAkSinUVk6IW0ughLCnrekKIb0JwbP3RqvGuBnhBSkoVdn3YU7DMv9vg7QnCJ3v/LkhvVZgGi91xd5oc8LJCrVqtt5cSIrlQKqX0+p6tp3J7Wkbf6vAUqEWMarRmoiY3k/5E2DvA6WUOZbLZTva++Lr/fBtGa4Esunt9F57qGRjue6E5Qkkny3Zf0q/G9L7PnDmwdpsDKk8ATxvxWl87YfL86vxvHYP+AiwVMhBsgCyG674rxzYAPt+G18BZw6ANB6T5eNSeq2GHJ+5WKyh8lOBddaztH3pflqhA0LwKQnXpLlCQL50D5YFcC0znRD5iulxbNmv93/5YbJllHRZJpdnzwDrfifcnpUiLt+L6Qj8AwsirhCTjJiuAAAAAElFTkSuQmCC"
+                                        alt="Cài Đặt Cấu Hình NextDNS"/>
+                                                                <span
+                                    class=" item-title text-center">Cài Đặt Cấu Hình NextDNS</span>
+                            </a>
+                </div>
+                <div class="page-item-wrap relative ">
+                    <div class="page-item flex-both-center absolute"></div>
+                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://web1s.org/4LKAZn72pb" data-id="1612683" data-type="page_item">
+                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-24/8STPaXr2aLqJguoQNEltmwi1s1G43nLh.png"
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEo0lEQVRYhW2XW3bjSAxDL1hyuve/p9nSnI7tIuaDrFI5PfZhZNmKAIJPyf/+Y9bLAkQS2OsYmADqN1kIEYjAyAAGG5xlmeAJmTgnmZN3TmYmMyfTSdrYJuofDTeNOv94+eOwT8zf35/f7Xv7Pv/x2wVZ3tntZTQHY9xH/S8XA1oAnGD5Ae5TncNsc5HZdy6Ji1xgTgL1lrVZ2Orf6z83YK4wzL/MObEnzmxS5sLvI/4ncHmYqC7eJEAI+rNtxBn7/EHiDbPAKy86N5wYczFfh/fRNkhXcIpAeUurEB3/5bls9JF8DZxv3FaflwpNoELwalmjFPBoXws8LbIJYqOWn539iZyM/wEnX/v4QeKDwHxuAmZgqkSSAp5o58QioJWBh/dyEnkSeDVw2SLhfDf4JIvA9yH/wFxb+uxekCTp6BCYaAI3cO4EU75hLsAn5BPns4kUgfT7VGARGBX7SjWSYBJMDyYlWTUi76pTFqHMRJmovS8SC/j7B4lXez9JkssfBB4d+2gr8NmluCR3XVRqZDaB8j5myz9fkN/4w5qE31WOZClwy7+8Hw1eLBOTXZe79BIyzcwiEZl4TrwJPDsE3zj/3CT8bAIVhsvz2RUwKq/UZchFkqVAJ+ZWIIXSRJb8OZPMScyJ50RNwgcJ8g/2n1LBL5I36Vll6N2AAnNhJe5sqE+Q3ejkOsk0OY3TeBrPbCsSzFV2z8P7P9iHCkwu52wYYWaBu2WXt/xJgclGKbJDkLOJLBLvJpB3OCruT/Czwb8xryJQs0CgvNvwx7tb/DGB/p4ti4AhiwgrJ7Ja8o47dYSlgGsMnBO4Zo4+pifW3fw+rMPgOxxKwyJzDB779mLBXRCFqG7Fq+0ikOrcKlJevx0vf9rP6VzeVTflaHY9zLnQ1TcdoFFHBqh2HilYm9DGlzob7zG+FTodWIC6ylce3UDoqksu86gbcoHK1ASKhJCKANmfBao/n3i9upkANXBc4AdoFkFFY9W0uYhfhwJfSI8i0USkQTh2OIRqJ5A3kSJT1xABHuAbvNp4g+sCvkAT5J8EHqAH0gPpIjSI3hHo5bQWUgiLCKFo0AiIcYNzQX71MiO8wPXuMOQi8LvZDeBCrULoKu8ZmwDtbQAxekNeloFO73lg5U42NApcibZxKKAo2XUdClydtVFJuFfyW4GIAtZocC4gC9wn+ESaSAmRFULgYvzu3I2+8EJRCgSjpGPUUpKx9+YYItr7cCkkryq6INbavqSfJXuDE5Wul+LXzk5tFcZWoG5YDyisCoB6MPFNQj4U0GqdK7d+eB6VxAguxtfReKLAYxAaePeF6D2wmlDgDkGgcIWgw1AlbIh1/dieEy4TKIwrB76qhKVWIBq8jveyqr0Ji0r4W4EoBRjsi1YHVGd8lOcsBYLOgXh0FfSzX8QRjuqG0av5JtBjuW50l2I9JY27RdMdU9l+eHX81em5qvzUXwReSkTXvGo++Oj3Coj0Bt8krCpX/INAbALETZxNQGxKUqmgJnL02W5m/XQUQqkWbrXlKBCiOeiWa3l+WhGIOwTLVv9vZT5fddOFy8dsACGsVaw9eI6ZoXN2CP4DCxm4oeJE3ZkAAAAASUVORK5CYII="
-                                        alt="Tổng Hợp File Chứng Chỉ IOS Free"/>
-                                                                <span class="item-title text-center">Tổng Hợp File Chứng Chỉ IOS Free</span>
-                                <svg class="embed-ind-arrow-icon embed-ind-arrow" fill="#000000" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC keaUzC">
+                                        alt="Tổng Hợp Chứng Chỉ IOS FREE"/>
+                                                                <span
+                                    class=" item-title text-center">Tổng Hợp Chứng Chỉ IOS FREE</span>
+                            </a>
+                </div>
+                <div class="page-item-wrap relative ">
+                    <div class="page-item flex-both-center absolute"></div>
+                    <a class="page-item-each py-10 show-article-embed cursor-pointer flex-both-center relative" href="javascript:void(0)" data-embedId="1613538" data-type="page_item">
+                                                                <span class="item-title text-center">Truy cập thử xem đã anti thành công chưa</span>
+                                <svg class="embed-ind-arrow-icon embed-ind-arrow" fill="#FFFFFF" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC keaUzC">
     <path d="M8.006 11c.266 0 .486-.106.695-.323l4.061-4.21A.807.807 0 0013 5.87a.855.855 0 00-.846-.87.856.856 0 00-.626.276L8.006 8.957 4.477 5.276A.87.87 0 003.852 5 .86.86 0 003 5.869c0 .235.087.428.243.599l4.062 4.215c.214.217.434.317.7.317z"></path>
 </svg>                            </a>
 
-                    <div class="article-wrap collapsed" id="article-wrap-1613465">
+                    <div class="article-wrap collapsed" id="article-wrap-1613538">
                         <div class="embed-wrap relative">
                             <div class=" embed-wrap-preview ">
 
-                                <div id="embed-wrap-1613465" class="hidden article-embed-wrap font-inter font-weight-400 text-fs-14 ln-h-22">
+                                <div id="embed-wrap-1613538" class="hidden article-embed-wrap font-inter font-weight-400 text-fs-14 ln-h-22">
                                     <div class="article-embed-content embed-scroll">
-                                        <p><strong>HD Cài Cấu Hình:Vào Cài Đặt Chung &gt; Quản lí cấu hình &amp; thiết bị &gt; Cấu Hình Đã Tải Về &gt; Cài Đặt &gt; Nhập Mật Khẩu Thiết Bị &gt; Bấm Cài đặt &gt; Đóng</strong></p>
-                                        <p><br></p>
+                                        <h1><u>Lưu Ý Không bật VPN và hack 4G khi dùng cấu hình DNS</u></h1>
+                                        <p><u>NẾU BÁO NHƯ HÌNH THÌ ĐÃ ANTI THÀNH CÔNG !</u></p>
+                                        <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://ocsp.apple.com/">https://ocsp.apple.com/</a></p><img src="https://cdn.bio.link/uploads/campaign_pictures/2023-09-25/DtD6ooyk7TlImxMF_20230925_142323.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -5135,22 +5051,32 @@
                 </div>
                 <div class="page-item-wrap relative ">
                     <div class="page-item flex-both-center absolute"></div>
-                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/nhutgg.desinger" data-id="1594586" data-type="page_item">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-18/hBiMqentBBj5pG9bPvPyuHJFbPJdJgSM.png"
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEg0lEQVRYhY2XWZLjMAhAHyD3/Y87sQXMB8hLdybTTqlUSWzx2LFkZvLpSuDlcOywT5gTIsjox0RqmSGmYFZrKKiCKaiAUOvbNT4KXwDktQNkQub6hoj0b7eH8vZ8vhf+e4BMyIBIiCAiyYw+WNZGpiAhiErdnzewbIJvIP8HiAR38IBwwp3weACQpab0V/Fl8SWt7b/cdfv5M0DSwh184nMSPgsgouSKIKqQigB6iWtZCSiS0rGwAOQXFvAEr8DztY6DcCcjLwBTJBXJJDJQElnLDMlstyiyyKj9M8CccJTgeRz4vuNHWaEAsrRyQ8zQEUgONBPJ6D1RawtlVsC2BeSjC2a25gfzOJj7wTx2fD+IOYmIUwvUkGFoDDQCzUBzkA2SUSkqqg0gSAfve4AEjkkeEz8mc9859hfzteP7fgIsC4ga4gMNPwEsE+2VluUiNUQqSwT5EIStfWm+n+t4vfD91cHoleoiZX4faGxoBJYFtwA0Ag1DLRHRigepHPkJEDyCbh7lgmPfOV5/mPt+BSJ9oBmyDayFRyZBYoBlxUpmkpGIKqr6AaC1j6Mi3lv4fL3aCn8qDhoAEWSU9hEl3M6KKFUUVzVUEGuQjoMngAPuxPSbBQpkHgfH69Vu2AsgE1QRn2gLT5EqeiLkSrcVWpZoGqLvAPIG0MsbpNyw19orEN3nCaBRqVeVSEA64lVxURC9cj/pe5V8AATd5aJMeYLMskhnhDdMzFkuUCUzSKEqohliE3Uj3BH1Tj9FujxFNhPCOLvVCZAFcIIEEReM+yTmfFggEVAnzFF3svtFRKCtVEYQoiCBqkBEV8IF0F0vV6vN7HqfZ85H5Gmh9R9QFujUu9Z1T97OraC8RhD9kQXZNf4MjXzsz+s+ZXxv+D8nkOwPJ/i7NHycWRWrIrYKSO3VYMhETFE1VPXydZfcul/O+i9ya8stazxb9r1nr0OuiK6GU/UeaRXWb2NgNlCzArIbVIPRUHc5TwD9pu0Sai1gbOSo/FfVqoSq6NjQbcPWGgOzhugmtPZlFR514JwkpAqLaT08+pAxsG2r1OvozVWKVc//bfvqfdQao+Ct23VbY1n3OQ8oYEWqC8CstNkGY26kO7T24V7sDaDbaIBeoyyx3CNmN3fcXXC/Toju7y3c5kZMJyMQIMwqxRaAGTo27KtcoNsXtg102y7hC2BVRXk3kik1XJhiZsQY+BiM7dJeENJGuaIB5OYm3bayxtiQ7TK/aL8n6DMTfqahyeX/YVgLTw8kQUWI6TV206l2z4Sl9RjoKOGcAPLQHt7NhEqlVke/DSfHRm5RFhAhrYZSeQBcEHLu/ba0tG/h+d+puOPAhpFu5BgQZYEQJdW7mjWAXgArdqTjiLvpW7gg53vKe4BbMFYNcDIGRL18VAe8WaALj9wgyvT6ADg1v1Xof0/FnTKqFZBYIKMAMuqtqIrnVTeW4LUugB5OWnb+CuA2VNyXmpUW2ePYHUDtke9L+xQ5215NSa3IZwDO2i3Sg6QqEVmH3WJA5XvzuYpNnvX/dm6/sAnwFxhxTnmjPtMjAAAAAElFTkSuQmCC"
-                                        alt="Nguyen Minh Nhut"/>
+                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://nhutnguyenminh2.github.io/sharebygg/" data-id="1604696" data-type="page_item">
+                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-25/fan13mLV7czMjSA85G80SYvOZsdP6HPc.png"
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFNklEQVRYhYWX4ZLsKAiFP0CTef933dvdUWF/oCYze6c2VVS0k5bj4QBGIiL45Xpd8OcV/PPn4p8/jde78/50PpfTRxAhiAhmSq3GWY3zNL6OvJ+Hch7KUaFWqAX0h4+f8/9cEWk5jj0mHvNpsd6fz/kx/9tWfwUQgDu4BxGB+98tfozj5/MIwtdaG9e+ym8ARsAYCWCMYAzH5z0t8BBCPHeiwhgPc2GMXGOooCqICyJgCvJ/AHqHPqB339bWuKUGPEBEiSC1oGnFhG7pyDRQUUTkDp2CKoj8AmAEtA6tBa05rY37fjlXG/S+RBiEZaAV0LlD1UAFVPIdkNSDg1u+91cAAVwN2gWtDa5rcF0+77clgGRglIy1EIgEKoGIoQQiCjgRgofgDjZ+YSCAT4Prgs8VfD6DzzX4fHqOP4P3p3N9ZggcVB3rSgzdMhcmmOQknbvgQxhlMfQAEIADbTsnHX9z3nm/O59X1oE2GVARrCg+lJg5KxhCTOc6d57CLHP3G8BnJPDh0Fs6f39iO127fr8H79fg9U4mes80UxVKUbwb4SvZM9gRRoQQrnv3vYCpIJo6KJ9rAhg3gHQ8nb6X82Tg9SdBte6EswGMwwn3VFk4hBF4MrB3L9iYafg7gEX9pP2TIF7vzuuV9n4PevepAaEWZQxNBlZZxAlsik83/TbkuwauB4DWgmsB+AZkbBYWgHZ5akCFXgQfNuM/FSUG4rcOXBg+AVgykADaAhD0Nria036k3J0Btw7a5bgHpkKvU4CSaShqqGYqJhMpxBFCMVCTm4Hes6mMkZWutYxvjrPoXG0B8QTzHlyfG4APR1BUA9PALDAz1AJVRTR2cnqA+QSgUIY74Y8a777HfTjjUYr7rIirOC0AIKhBuaBUqH2W8g5moBaI6mx9QhhoCOJQdrdb9kvXGyMYC+gE5B7EbDSjz+b1bEYuswve95F4gUgGbtUu49s8eOb2bK/M+zb99vtu/uG7Ju4Dw74EAorKdCXM5hFboati6WouCmo5N8tldFKczSem+ALRmLm+eoM81pI7C8wgInlxB7PZVi3HxQQrQilCKXmsqjUPFzpbbqlpVtJKgWKpeDO513nYzoJSZPfziIxfLbeVKtRlh3CcQh/ZS33W9WM+q0e+V5aV+7+lZMGykptTzcNJqSXjpyIQSrgwulCrUqtwVOGswnUK1yX0Lrhnyrln2GoVzi/lPIXj0Gk5rlU5qlIPpRSllCcDQjnq3LmSB4fIsjq60pvSDuU6lbMprc2Si2OmuGecaxHOc4L4Us5T94n4PJXjMOqhyWjRXYhUhHIcqxLqBuCeAFpPx9d03rsxfIAYVsBHCrMU4TyMry9L56dynMZxGudhycRhvwCos3UMUMkDxALQu9LP23kfg+EGBGbg7sg8Ax6HPhhYQBaI/G6oVSiWAFZLLudiYMaEMMLHBGC0NheZjLgnSCtZWDKVhGN9jDztuBk4qlHrFOEsXqpQbNYEK5kWEcrwFFLvytFW/I2zG8OdINCWR3aRTNOjKseMd4rQHoK0DaDsNMyvqvKoS1SDqNlae78VfB0JpHWlj2yvogtA5vpRbTuth03lp+M0pVSlmG4A+gSwQJTCztlaEsS+V+Xoikd+WXhkkbUi+/myMv9X9txyXvJbMgH85VhuMPN1xmsqt6xqWIXiSpB1IBl4PC+5y7VG7vjxm/0PAGCL5C7L91xNMXM8UoD5dbxsppgJpjr/o/fzx/w/GvgWitU0RHbJ1KXcxxjYz2SddNd34KPp7HX0jr1Kzv8F6rdZkMZfcWoAAAAASUVORK5CYII="
+                                        alt="Share File 4G VPN"/>
                                                                 <span
-                                    class=" item-title text-center">Nguyen Minh Nhut</span>
+                                    class=" item-title text-center">Share File 4G VPN</span>
+                            </a>
+                </div>
+                <div class="page-item-wrap relative ">
+                    <div class="page-item flex-both-center absolute"></div>
+                    <a target="_blank" rel="noopener nofollow" class="page-item-each py-10 flex-both-center" href="https://github.com/nhutnguyenminh2/TEL-setup-auto-update" data-id="1612699" data-type="page_item">
+                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-24/WgF3gQkksr8of7hN5KQrpgj9U2Hdr4gM.png"
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADGElEQVRYhaWX3W7kIAyFzW+Stu//lJWqXkw1jSHsxfagg0mm3S4Smg4w9sexMdQ555pQizHK09OTLMsiOWeJMYr3XpxzIiLSWpNaq5RS5PPzU263m9zvd/lti3bAOSfe+9MuInIcR/8MIUiMk4n/A4BR7iGEDtBak+M4uiqtNSml/FqFCSClJCklyTlLzllSSj0MDFBKGcBqraKq/+Tcez8COOe642VZZFmWAQA7Po6jOwwh9PHX19cfO++2eTCEMOyeExGORKQrYMFUVd7f3791vq6rbNv2N8Q8EWPsIYACIH0EgDFVlY+Pj4ehSCn1U3YJcBUGBqi1DvID4OXlRd7e3i4Btm0blJ0AGAIAOech4aAAy19rlX3fZdu2S4AYY7cHm1MOcBhYDSs3gOBcVTv08/Oz3G63CWBd18H2KQBDwDknIgM454YTgbXrup4C8LGGvQHAez9AWDVYAZYeCYmec56ce+8Hx93HmQJnEHzkLICq9jUcun3fu23MTz4YgO8BuxAd61prp8D4XNd1AkDecJ9CcHUZ4cfOuVMAXgcluEFB7s458VaBR50B7LiFRfg4tGe/vwS4GvsOsEv7lYzOuaGSsm0RmXPAttZa7/zdNgsSQpCcs9Rahypq2ykAnBzHMfzN8zzHQIBAGLiKInfY3vQewCR6rVVqrb0G4BhytxAcBvyWnTNEZHIGgGMUGuwKazBnQRji7MnG9ocQ4Njwzksp/dLBHAOUUiYQbIZrSWtteszg+ykAHJdSejGBU1uCVbUDcCj4VGAMzrGhoRDFGAdpVVX2fZ9uQDQODzog7GmA3LwJPGyjiAxlFgrwe4/J7aNEVbsKtdZLBSA/QGAr8pOLLxd+7eAsWwCGYAWgAgDsqQGgc07itm1dKgawrx8LwCpwQloHXP3Ojm1MKXVaxFZVB+nthcPN1gwOgS29eDciZ76UjR0ACiBOnAsMYA3byonGEPxuvN/vXalo73jsAklnr2N7nTKMhTgLgap25yIikSXlMmx3wRCsyNUtx7cnq2T/Z4i8wEJclVb+xMPkEQTngG1/AC0jQYEuHEDOAAAAAElFTkSuQmCC"
+                                        alt="Tool Auto Setup Termux"/>
+                                                                <span
+                                    class=" item-title text-center">Tool Auto Setup Termux</span>
                             </a>
                 </div>
                 <div class="page-item-wrap relative " data-embedId="1613469">
 
                     <a class="page-item-each py-10 cursor-pointer flex-both-center relative form_item contact_form" href="javascript:void(0)" data-id="1613469" data-type="page_item" data-embedId="1613469">
-                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-24/QT6f57GwyHj1hetKNgd4y3oHpPxtkxzZ.png"
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADGElEQVRYhaWX3W7kIAyFzW+Stu//lJWqXkw1jSHsxfagg0mm3S4Smg4w9sexMdQ555pQizHK09OTLMsiOWeJMYr3XpxzIiLSWpNaq5RS5PPzU263m9zvd/lti3bAOSfe+9MuInIcR/8MIUiMk4n/A4BR7iGEDtBak+M4uiqtNSml/FqFCSClJCklyTlLzllSSj0MDFBKGcBqraKq/+Tcez8COOe642VZZFmWAQA7Po6jOwwh9PHX19cfO++2eTCEMOyeExGORKQrYMFUVd7f3791vq6rbNv2N8Q8EWPsIYACIH0EgDFVlY+Pj4ehSCn1U3YJcBUGBqi1DvID4OXlRd7e3i4Btm0blJ0AGAIAOech4aAAy19rlX3fZdu2S4AYY7cHm1MOcBhYDSs3gOBcVTv08/Oz3G63CWBd18H2KQBDwDknIgM454YTgbXrup4C8LGGvQHAez9AWDVYAZYeCYmec56ce+8Hx93HmQJnEHzkLICq9jUcun3fu23MTz4YgO8BuxAd61prp8D4XNd1AkDecJ9CcHUZ4cfOuVMAXgcluEFB7s458VaBR50B7LiFRfg4tGe/vwS4GvsOsEv7lYzOuaGSsm0RmXPAttZa7/zdNgsSQpCcs9Rahypq2ykAnBzHMfzN8zzHQIBAGLiKInfY3vQewCR6rVVqrb0G4BhytxAcBvyWnTNEZHIGgGMUGuwKazBnQRji7MnG9ocQ4Njwzksp/dLBHAOUUiYQbIZrSWtteszg+ykAHJdSejGBU1uCVbUDcCj4VGAMzrGhoRDFGAdpVVX2fZ9uQDQODzog7GmA3LwJPGyjiAxlFgrwe4/J7aNEVbsKtdZLBSA/QGAr8pOLLxd+7eAsWwCGYAWgAgDsqQGgc07itm1dKgawrx8LwCpwQloHXP3Ojm1MKXVaxFZVB+nthcPN1gwOgS29eDciZ76UjR0ACiBOnAsMYA3byonGEPxuvN/vXalo73jsAklnr2N7nTKMhTgLgap25yIikSXlMmx3wRCsyNUtx7cnq2T/Z4i8wEJclVb+xMPkEQTngG1/AC0jQYEuHEDOAAAAAElFTkSuQmCC"
-                                        alt="Nhưt GG"/>
-                                                                <span class="item-title text-center">Nhưt GG</span>
-                                <svg class="embed-ind-arrow-icon embed-ind-arrow" fill="#000000" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC keaUzC">
+                                                                    <img class="link-each-image" data-src="https://cdn.bio.link/uploads/thumbnails/2023-09-25/ljAFDd80UipcGoWvhq549X2QUf9vRS62.png"
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAGm0lEQVRYhWWXy44sSQ2GP18is3vmHMEKFqx4bJ6CF0JigUYIaUAjcaqrK8MXFhHV58LCeaus9O/fvx0O+e0vf20RwAQ5FD0VfXH01bDXgb4O9OWAlwHnAccBY4A7mIEoIEBBJeSEeMC8w/wC13/h+g2uf5PXr+T8Fzn/SeU/6PobSguN7I9AIzTs6+8O69T9/0bv37555/lsP3we+/msGzrwaoEGaUFK0RK6oAqkmu6G6vXgRxNZuEXWBz9+2//pr/ddRVVTXduS6hsebcjzWy10PQ1IIBvJQqPAElJBdTsF9MlOQyfkt1aQRVWSVWTltqD6QTd4lIGAiKAJWoKmYLGcE4VEgglq8szUcqi1wCCL1qcGMiCWdQYZSWQQuc6Zk8o3usCvHIhsFShoLG1VQM9eURugT5b6K91qPwAoqAkxISc1JzGDiElEMHOSeRH5oPJXqsAf6TuVjSpoFG5NTWgrWoWWXirvwquQyhWhGYgtZB8AAvKiYhIxmTGZM4g5mXMScRH5Rj4ZeM9jM9CoFCZCauFalDYttWmXleMKPA0x+wEAW3SL4siLGdcG8Ly+mPEg4gu59en3HMt5N9qFk6QEKU3xNXKqIQVCwRUzQ599QFYZP9UdOYl8MPPiim/twcw7M3/9BkAMENAurBMHhhSD3NWfdOV6OxtCwIU2Q1URXSAaqG6yi6jJrIsrl9PHBvLIB1femflvoleR+G2nQKuwFgaQrEi6V/1SgWRCJDgbgKKqqBotSiMUTXQRFVz14MqLR00eefGeC8Ajb1wFc8fjt10FKoW3cNBkG9WyG1ojlciYSAZivUCY0KrUZqBQCoguZgdXXzzq4pEX95q858W9FoBHw/UE8KUGCqgkoyEosoNGoQWpRrPQDNQn4okEoIKaIrJKsVASCJqrk9mTqybvFbzX5F7BW03u9YX3DSAAv9USoYswaJKicQRFW1EE68a6sEo0A7H6YOADgBiJEDTRydXB1cmjg/dK7pW8VfDWb9wLHg0T8FuvFHgLRzfVCWUoxjoK3oI32K4UqUSKBUAbxChpAiVoJsns4uri6ubRzb2Kt2puHdyaxUKD33CUxpfeoRNtw9vwVkYr0Uq04LWWB1vFudbOblqbkvX/ZRANczt5NLyXcG/hVidf+sZbwwPwuxpKMwSQRiVwcQ4xQpwQI/lqJUUJlDQgiCiNUsjWwQKQ6GZEmW1cGO/t3PnErf/DFxYL/r4BlIBI4eqEGqFOmpE2KHXKBmVJG5QppY2owC7DEtsgVi9Y5kQ7E2fW4JKT9/7MXeDW8Ab4tAVABFyKVCPNSfXl3AblB21JW9Om61qhVVYT0sXCauhNd+4Rosg6SDkIDoKTyWceBXfgBniagjQlTe26LjPaHGzQPmg7aN/KNwOrvULKakJ7LGtkNa8OupSupivoPCl5IeuVyE+E/IlZvywRylD2SLTaqu2Fxh18IH4gXogDbmDjOwAi+jEXyseClEjaUmomxAX6AvkTyCc6/0jLL1SDqwsmYKKoLRN31B0ZYzWe0eCKDEestsnSgCwTZHfNQiogFUmQSEQnEg9EX1H5GZXfY/VnvP6OjyGoCK6Nq2JumBs6BjoKPRoZgg5DfGw2+nsAO3p5AsiJpqEBGonOiekLHq+4/MyQzxz1B14q8WMIKs1QYZgwXPFh2GHYGOgBegg6HB2Jjl6D0AYgIrSsdUO70Ew0HY0FwGZiugHIK0NeOeUTL/k7qgo/x5oHnwB8KH4Yfjh2gB2CnfrBhnojLqwOrKBrGNEGrb1mpKOh2GxMA5fJkBcGLxzyyslPvMpnqMIP3wyYcLgwhuKHLgAn2Cnoacv50egAddkM6B6OV/6fACwMm4JpYTJxuXBORp8cvHDySshPSOVmYAt8uDDGEwT4CXYqdjZ2stIxQF3RPSWL7I1MfQWgoZiBaeJMjAejN4A+OfskeUEy8WOPdB8AfKXBDsGGrKjPXjo4QYauFLh+aECA7kYy0dQ13EqhBNYH3gdeg1EHRx0cdZL9ghD4sN0FTVbpu2CumDc2ZJX92EI8BB26zGTtT3RvEZql/FwpVRLrgdbAcpmHM2xw+CB7ACfumwGz3WdMMAdzQR3UQfybyIcgY8+izx3lsx2oIuKrGirQ8qUHNywcN8fM8XSGDsBxW+0c2zsuVdnnte+QZ65NFhD/3vlzo/Rx74a0IWXIHt9VDdvzo31j1Y4/p2p9moKK8OyworveP+6/OuVH509TRUTXdk913auu4ERQUUyUEuV/PgChmgTHdK4AAAAASUVORK5CYII="
+                                        alt="Đóng ý kiến và phản hồi từ bạn"/>
+                                                                <span class="item-title text-center">Đóng ý kiến và phản hồi từ bạn</span>
+                                <svg class="embed-ind-arrow-icon embed-ind-arrow" fill="#FFFFFF" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC keaUzC">
     <path d="M8.006 11c.266 0 .486-.106.695-.323l4.061-4.21A.807.807 0 0013 5.87a.855.855 0 00-.846-.87.856.856 0 00-.626.276L8.006 8.957 4.477 5.276A.87.87 0 003.852 5 .86.86 0 003 5.869c0 .235.087.428.243.599l4.062 4.215c.214.217.434.317.7.317z"></path>
 </svg>                            </a>
 
@@ -5195,7 +5121,7 @@
                                                             class="submit_loader bl-circle-loader op-0"></span>
                                                     </button>
                                             <p class="font-inter font-weight-400 text-fs-12 color-gray-6e mt-16 ln-h-24 text-center m-0 pb-32">
-                                                By submitting your contact details, you are providing your data to Nguyễn Minh Nhựt who may contact you.
+                                                By submitting your contact details, you are providing your data to Nguyễn Minh Nhựt(gg) who may contact you.
                                             </p>
                                         </div>
                                     </div>
@@ -5263,7 +5189,7 @@
                                 </div>
                             </div>
                             <div class="share-items-wrapper">
-                                <a class="share-item font-inter text-14" href="https://twitter.com/intent/tweet?text=Check out Nguyễn Minh Nhựt's bio link! %0a%0ahttps://nhutgg97.bio.link" target="_blank">
+                                <a class="share-item font-inter text-14" href="https://twitter.com/intent/tweet?text=Check out Nguyễn Minh Nhựt(GG)'s bio link! %0a%0ahttps://nhutgg97.bio.link" target="_blank">
                                     <div class="flex item-center">
                                         <div class="share-svg"><svg width="24" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M6.2896 17.126C13.8368 17.126 17.9648 10.8732 17.9648 5.45082C17.9648 5.27322 17.9648 5.09642 17.9528 4.92042C18.7559 4.33955 19.4491 3.62033 20 2.79642C19.2512 3.12842 18.4567 3.34605 17.6432 3.44202C18.4998 2.92926 19.141 2.12267 19.4472 1.17242C18.6417 1.65043 17.7605 1.98728 16.8416 2.16842C16.2229 1.51057 15.4047 1.07496 14.5135 0.928992C13.6223 0.783027 12.7078 0.93485 11.9116 1.36097C11.1154 1.78708 10.4819 2.46373 10.109 3.28621C9.73605 4.10869 9.64462 5.03114 9.8488 5.91082C8.21741 5.82899 6.62146 5.40501 5.16455 4.66643C3.70763 3.92784 2.4223 2.89114 1.392 1.62362C0.867274 2.52695 0.70656 3.59631 0.942583 4.61397C1.17861 5.63164 1.79362 6.52108 2.6624 7.10122C2.00936 7.08209 1.37054 6.90592 0.8 6.58762V6.63962C0.800259 7.587 1.12821 8.50512 1.72823 9.23826C2.32824 9.9714 3.16338 10.4744 4.092 10.662C3.4879 10.8268 2.85406 10.8509 2.2392 10.7324C2.50151 11.5477 3.01202 12.2606 3.69937 12.7715C4.38671 13.2825 5.21652 13.5658 6.0728 13.582C5.22203 14.2508 4.24776 14.7452 3.20573 15.037C2.16369 15.3289 1.07435 15.4124 0 15.2828C1.87653 16.487 4.05994 17.1258 6.2896 17.1228" fill="#1DA1F2" />
@@ -5293,7 +5219,7 @@
 </svg>
                                     </div>
                                 </a>
-                                <a class="share-item font-inter text-14" href="/cdn-cgi/l/email-protection#ae91dddbccc4cbcdda93edc6cbcdc58ec1dbda8edac6c7dd8eecc7c1c2c7c0c58f88ccc1cad793edc6cbcdc58ec1dbda8ee0c9dbd74f152bc08ee3c7c0c68ee0c64f151fda89dd8eccc7c18ec2c7c0c58f8e838ec6dadadedd948181c0c6dbdac9c9979980ccc7c180c2c7c0c5"
+                                <a class="share-item font-inter text-14" href="/cdn-cgi/l/email-protection#a699d5d3c4ccc3c5d29be5cec3c5cd86c9d3d286d2cecfd586e4cfc9cacfc8cd8780c4c9c2df9be5cec3c5cd86c9d3d286e8c1d3df471d23c886ebcfc8ce86e8ce471d17d28ee1e18f81d586c4cfc986cacfc8cd87868b86ced2d2d6d59c8989c8ced3d2c1c19f9188c4cfc988cacfc8cd"
                                     target="_blank">
                                     <div class="flex item-center">
                                         <div class="share-svg"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -5351,10 +5277,10 @@
                             <div>
                                 <div class="featured-head pt-32">
                                     <img class="subscribers-img" data-src="https://cdn.bio.link/uploads/profile_pictures/2023-09-18/TLCYdyxx3SjtHUEC3QC7P91yhWjzZ4Fh.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAETklEQVRYhY2X25bjOghENyD3//9ubAnOA0iW0+nM8SzaHl9EUQWISEQE3w4Hzg7XBb2nucP8TAVUQQ1MwSxt3lMB4ba3Q786B4jtYsMa89F+Ma/Xe2+xfQi1/S8A7uAFwJ1wZxIXIhnc/BNlHiCRZ/0Q+v8G4H7bGPgY+C6BCBJRDOe/B9dK/l80b8fz8XcADviAMaB3Rh94H4SPxQAiiGqCmEYgGLKkUdCYNBUAIf4JYAT06bwz+oX3jo9B+J2Eooq4I+7oBBCBWCBhoIHEZCEdTxB/AwhW1o/e6VdnXBd+XQtAACKCmCJmSGsJIBz1QLxAmEIoIsWClAbyjYHum/OLfp2M80wQfWQiPgA0dBQL3tCWLCQgRdRAHSkWvjPgQB9Ez6j7ddHPk/46Gdd5A4goCQxtAx0D9YG6p0Xg7qhbMqG6gfgGYNzRj+tinGcCOF/088SvjhcAUU1rDT0OrBxbRa+t5Xv7u+orIX8DqOh9j74YuF6vYuG6GZDUX4+M3N2xCHyBoCxQUyQMcUnmPgIYAWNmfYE4L66S4Hq97jwgkAlgtAQQgQNWeZznbJERhmoxEVms7Vf0s9mM8QAxFogX47wYoxNRSdjSuUUQ1ZHvbL9NAVa/0A9VUI3HhyeABSJlGGdKMc6T0ceSIJOv4hStjWiaPDekCScCkZ2B1fOz1/uDicqJfjGuTj9LgqoCj4ZSjsyqJxjeR5aoGqKODCdWD0iGngDCCc/S8YgEsmwC6kueBKDlvDOGIWPUu/mNumXCuuPqmYCQ7MA7AHLRsojIjlfAbvN1DygH27P5zfo+1rrzLJGS6e6ciO1y27z3rZ5tW9932ZVrf2+9PJbMlZ5J+FhwyxiVzPa58Wi11pJAzO77c3eUvEaklpLn+nW0B3rK0bTlrGp9WmuA3J2wNbQ1zBraDDXNpqOKbmBuQPfccDNQkSI54+2R7o7tOJbjHYAdB3Y0rB1Ya6i19Z1YAdGblQnkBqBkW9XtZbOMqBx474Q7CPjwW4JmWDvQnx/az7GBeYJ4MFrSPHNg03h+aC2j8qMTY0CQ0Q/PVryAHtjPgf38YMeRG9MxpbEl4ZSWmiXfAAD2dD5aw46GjyOjB9Q050JIfYuldHosAHqUFM0Wq2wy/AYggJZmGwg/DmLkZCwiuNnqAaJSDLR02GbkB9pqSppVMvNrVsUvAADGU/vW8HYQR2ouIoTZ6hOyBpK2gWi347cS/fdIViyoGWaGt4YdA9xz2BTJqdgjS1u2Ei3QD+cFgK0M90b2eSKyGZVho2XyucMEMJKB3G2r5kuG/ZwJqmsanpHPfvT3WF7JePeARrSSACG0SlB4VM2UTqytXTB7yz0Dvv86+3sq1ozM64xbJiGS1fAGYJXZssr6bQqOrRcHORP8DUASuaoSZWpKEMT2E+udgRzR75Lbo/90fAHA3bdXFmv+4FSKgXyeNV6b1er7m+4V/a19ba8i/AcxTjimLIn/DQAAAABJRU5ErkJggg=="
-                                        alt="Nguyễn Minh Nhựt" />
+                                        alt="Nguyễn Minh Nhựt(GG)" />
                                     <!-- <div class="text-14 font-inter font-weight-400 subsc-title w-full pb-8 ln-h-17">Subscribe</div> -->
-                                    <div class="text-18 font-weight-500 font-inter subsc-pag-title">Nguyễn Minh Nhựt</div>
-                                    <div class="text-14 font-inter font-weight-400 w-full subsc-desc mt-8 ln-h-24">Receive the latest updates from Nguyễn Minh Nhựt straight to your email inbox.</div>
+                                    <div class="text-18 font-weight-500 font-inter subsc-pag-title">Nguyễn Minh Nhựt(GG)</div>
+                                    <div class="text-14 font-inter font-weight-400 w-full subsc-desc mt-8 ln-h-24">Receive the latest updates from Nguyễn Minh Nhựt(GG) straight to your email inbox.</div>
                                 </div>
                                 <div class="mt-16 w-full subscribers-email-wrap-main">
                                     <form id="subscribe_form">
@@ -5398,7 +5324,7 @@
                             <div class="flex flex-both-center flex-dir-c">
                                 <div>
                                     <div class="font-inter verify-title mb-12">Verify your email</div>
-                                    <span class="text-14 font-inter font-weight-400 w-full subsc-desc" id="verify_email_desc">Please enter the verification code we sent to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8beef3eae6fbe7eecbe9fef2e6eeeae8e4ededeeeea5e8e4e6">[email&#160;protected]</a>
+                                    <span class="text-14 font-inter font-weight-400 w-full subsc-desc" id="verify_email_desc">Please enter the verification code we sent to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c09140d011c00092c0e191501090d0f030a0a0909420f0301">[email&#160;protected]</a>
                         </span>
                                 </div>
                                 <div class="w-full subscribers-email-wrap subscribers-email-wrap-main mt-16">
@@ -5445,7 +5371,7 @@
                             <div class="subsc-content flex-both-center">
                                 <div>
                                     <img class="subscribers-img" data-src="https://cdn.bio.link/uploads/profile_pictures/2023-09-18/TLCYdyxx3SjtHUEC3QC7P91yhWjzZ4Fh.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAETklEQVRYhY2X25bjOghENyD3//9ubAnOA0iW0+nM8SzaHl9EUQWISEQE3w4Hzg7XBb2nucP8TAVUQQ1MwSxt3lMB4ba3Q786B4jtYsMa89F+Ma/Xe2+xfQi1/S8A7uAFwJ1wZxIXIhnc/BNlHiCRZ/0Q+v8G4H7bGPgY+C6BCBJRDOe/B9dK/l80b8fz8XcADviAMaB3Rh94H4SPxQAiiGqCmEYgGLKkUdCYNBUAIf4JYAT06bwz+oX3jo9B+J2Eooq4I+7oBBCBWCBhoIHEZCEdTxB/AwhW1o/e6VdnXBd+XQtAACKCmCJmSGsJIBz1QLxAmEIoIsWClAbyjYHum/OLfp2M80wQfWQiPgA0dBQL3tCWLCQgRdRAHSkWvjPgQB9Ez6j7ddHPk/46Gdd5A4goCQxtAx0D9YG6p0Xg7qhbMqG6gfgGYNzRj+tinGcCOF/088SvjhcAUU1rDT0OrBxbRa+t5Xv7u+orIX8DqOh9j74YuF6vYuG6GZDUX4+M3N2xCHyBoCxQUyQMcUnmPgIYAWNmfYE4L66S4Hq97jwgkAlgtAQQgQNWeZznbJERhmoxEVms7Vf0s9mM8QAxFogX47wYoxNRSdjSuUUQ1ZHvbL9NAVa/0A9VUI3HhyeABSJlGGdKMc6T0ceSIJOv4hStjWiaPDekCScCkZ2B1fOz1/uDicqJfjGuTj9LgqoCj4ZSjsyqJxjeR5aoGqKODCdWD0iGngDCCc/S8YgEsmwC6kueBKDlvDOGIWPUu/mNumXCuuPqmYCQ7MA7AHLRsojIjlfAbvN1DygH27P5zfo+1rrzLJGS6e6ciO1y27z3rZ5tW9932ZVrf2+9PJbMlZ5J+FhwyxiVzPa58Wi11pJAzO77c3eUvEaklpLn+nW0B3rK0bTlrGp9WmuA3J2wNbQ1zBraDDXNpqOKbmBuQPfccDNQkSI54+2R7o7tOJbjHYAdB3Y0rB1Ya6i19Z1YAdGblQnkBqBkW9XtZbOMqBx474Q7CPjwW4JmWDvQnx/az7GBeYJ4MFrSPHNg03h+aC2j8qMTY0CQ0Q/PVryAHtjPgf38YMeRG9MxpbEl4ZSWmiXfAAD2dD5aw46GjyOjB9Q050JIfYuldHosAHqUFM0Wq2wy/AYggJZmGwg/DmLkZCwiuNnqAaJSDLR02GbkB9pqSppVMvNrVsUvAADGU/vW8HYQR2ouIoTZ6hOyBpK2gWi347cS/fdIViyoGWaGt4YdA9xz2BTJqdgjS1u2Ei3QD+cFgK0M90b2eSKyGZVho2XyucMEMJKB3G2r5kuG/ZwJqmsanpHPfvT3WF7JePeARrSSACG0SlB4VM2UTqytXTB7yz0Dvv86+3sq1ozM64xbJiGS1fAGYJXZssr6bQqOrRcHORP8DUASuaoSZWpKEMT2E+udgRzR75Lbo/90fAHA3bdXFmv+4FSKgXyeNV6b1er7m+4V/a19ba8i/AcxTjimLIn/DQAAAABJRU5ErkJggg=="
-                                        alt="Nguyễn Minh Nhựt" />
+                                        alt="Nguyễn Minh Nhựt(GG)" />
                                     <div class="font-inter verify-title w-full">Thank you for joining!</div>
                                     <div class="text-14 font-inter font-weight-400 w-full subsc-desc mt-16">
                                         <p>Hey there! Thank you for becoming a subscriber. Stay tuned for more updates from me :)</p>
@@ -5472,9 +5398,9 @@
 </svg>
                             </div>
                             <img class="subscribers-img" data-src="https://cdn.bio.link/uploads/profile_pictures/2023-09-18/TLCYdyxx3SjtHUEC3QC7P91yhWjzZ4Fh.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAETklEQVRYhY2X25bjOghENyD3//9ubAnOA0iW0+nM8SzaHl9EUQWISEQE3w4Hzg7XBb2nucP8TAVUQQ1MwSxt3lMB4ba3Q786B4jtYsMa89F+Ma/Xe2+xfQi1/S8A7uAFwJ1wZxIXIhnc/BNlHiCRZ/0Q+v8G4H7bGPgY+C6BCBJRDOe/B9dK/l80b8fz8XcADviAMaB3Rh94H4SPxQAiiGqCmEYgGLKkUdCYNBUAIf4JYAT06bwz+oX3jo9B+J2Eooq4I+7oBBCBWCBhoIHEZCEdTxB/AwhW1o/e6VdnXBd+XQtAACKCmCJmSGsJIBz1QLxAmEIoIsWClAbyjYHum/OLfp2M80wQfWQiPgA0dBQL3tCWLCQgRdRAHSkWvjPgQB9Ez6j7ddHPk/46Gdd5A4goCQxtAx0D9YG6p0Xg7qhbMqG6gfgGYNzRj+tinGcCOF/088SvjhcAUU1rDT0OrBxbRa+t5Xv7u+orIX8DqOh9j74YuF6vYuG6GZDUX4+M3N2xCHyBoCxQUyQMcUnmPgIYAWNmfYE4L66S4Hq97jwgkAlgtAQQgQNWeZznbJERhmoxEVms7Vf0s9mM8QAxFogX47wYoxNRSdjSuUUQ1ZHvbL9NAVa/0A9VUI3HhyeABSJlGGdKMc6T0ceSIJOv4hStjWiaPDekCScCkZ2B1fOz1/uDicqJfjGuTj9LgqoCj4ZSjsyqJxjeR5aoGqKODCdWD0iGngDCCc/S8YgEsmwC6kueBKDlvDOGIWPUu/mNumXCuuPqmYCQ7MA7AHLRsojIjlfAbvN1DygH27P5zfo+1rrzLJGS6e6ciO1y27z3rZ5tW9932ZVrf2+9PJbMlZ5J+FhwyxiVzPa58Wi11pJAzO77c3eUvEaklpLn+nW0B3rK0bTlrGp9WmuA3J2wNbQ1zBraDDXNpqOKbmBuQPfccDNQkSI54+2R7o7tOJbjHYAdB3Y0rB1Ya6i19Z1YAdGblQnkBqBkW9XtZbOMqBx474Q7CPjwW4JmWDvQnx/az7GBeYJ4MFrSPHNg03h+aC2j8qMTY0CQ0Q/PVryAHtjPgf38YMeRG9MxpbEl4ZSWmiXfAAD2dD5aw46GjyOjB9Q050JIfYuldHosAHqUFM0Wq2wy/AYggJZmGwg/DmLkZCwiuNnqAaJSDLR02GbkB9pqSppVMvNrVsUvAADGU/vW8HYQR2ouIoTZ6hOyBpK2gWi347cS/fdIViyoGWaGt4YdA9xz2BTJqdgjS1u2Ei3QD+cFgK0M90b2eSKyGZVho2XyucMEMJKB3G2r5kuG/ZwJqmsanpHPfvT3WF7JePeARrSSACG0SlB4VM2UTqytXTB7yz0Dvv86+3sq1ozM64xbJiGS1fAGYJXZssr6bQqOrRcHORP8DUASuaoSZWpKEMT2E+udgRzR75Lbo/90fAHA3bdXFmv+4FSKgXyeNV6b1er7m+4V/a19ba8i/AcxTjimLIn/DQAAAABJRU5ErkJggg=="
-                                alt="Nguyễn Minh Nhựt" />
+                                alt="Nguyễn Minh Nhựt(GG)" />
                             <div class="font-inter verify-title w-full">Unsubscribe?</div>
-                            <div class="text-14 font-inter font-weight-400 w-full subsc-desc mt-8">You’ll no longer receive emails from Nguyễn Minh Nhựt.</div>
+                            <div class="text-14 font-inter font-weight-400 w-full subsc-desc mt-8">You’ll no longer receive emails from Nguyễn Minh Nhựt(GG).</div>
                         </div>
                         <div class="text-fs-14 font-inter color-danger mt-8" id="unsubscribe_error"></div>
                         <div class="unsubsc_sec">
@@ -5495,6 +5421,43 @@
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script>
+        (function() {
+            var js = "window['__CF$cv$params']={r:'80c1a4ea79ee46e5',t:'MTY5NTYyNzg5MC43OTEwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";
+            var _0xh = document.createElement('iframe');
+            _0xh.height = 1;
+            _0xh.width = 1;
+            _0xh.style.position = 'absolute';
+            _0xh.style.top = 0;
+            _0xh.style.left = 0;
+            _0xh.style.border = 'none';
+            _0xh.style.visibility = 'hidden';
+            document.body.appendChild(_0xh);
+
+            function handler() {
+                var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+                if (_0xi) {
+                    var _0xj = _0xi.createElement('script');
+                    _0xj.innerHTML = js;
+                    _0xi.getElementsByTagName('head')[0].appendChild(_0xj);
+                }
+            }
+            if (document.readyState !== 'loading') {
+                handler();
+            } else if (window.addEventListener) {
+                document.addEventListener('DOMContentLoaded', handler);
+            } else {
+                var prev = document.onreadystatechange || function() {};
+                document.onreadystatechange = function(e) {
+                    prev(e);
+                    if (document.readyState !== 'loading') {
+                        document.onreadystatechange = prev;
+                        handler();
+                    }
+                };
+            }
+        })();
+    </script>
 </body>
 <script>
     var plausibleScript = document.createElement("script");
@@ -10681,5 +10644,7 @@
     })();
 </script>
 
+<script src="https://bio.link/js/raindrops.js">
+</script>
 
 </html>
