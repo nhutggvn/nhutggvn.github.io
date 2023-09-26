@@ -25,6 +25,25 @@
     <link rel="dns-prefetch" href="https://analytics.bio.link">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- HTML -->
+<div id="views-counter">Số lượt views: Loading...</div>
+
+<!-- JavaScript -->
+<script>
+  // Hàm để cập nhật số lượt views từ Google Analytics
+  function updateViewsCounter() {
+    gtag("event", "page_view", {
+      send_to: "G-NQP8NHEJXG",
+      event_callback: function () {
+        var views = gtag("get", "page_view", "G-NQP8NHEJXG");
+        document.getElementById("views-counter").innerText = "Số lượt views: " + views;
+      },
+    });
+  }
+
+  // Gọi hàm cập nhật khi trang web được tải
+  window.onload = updateViewsCounter;
+</script>
 
     <style>
         body,
