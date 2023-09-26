@@ -33,9 +33,9 @@
   // Hàm để cập nhật số lượt views từ Google Analytics
   function updateViewsCounter() {
     gtag("event", "page_view", {
-      send_to: "G-NQP8NHEJXG",
+      send_to: "G-6SDLR093ZN",
       event_callback: function () {
-        var views = gtag("get", "page_view", "G-NQP8NHEJXG");
+        var views = gtag("get", "page_view", "G-6SDLR093ZN");
         document.getElementById("views-counter").innerText = "Số lượt views: " + views;
       },
     });
