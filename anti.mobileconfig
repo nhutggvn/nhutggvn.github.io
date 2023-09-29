@@ -8,10 +8,10 @@
 <key>DNSProtocol</key>
 <string>HTTPS</string>
 <key>ServerURL</key>
-<string>https://ultralow.dns.nextdns.io/6ba7f1</string>
+<string>https://ultralow.dns.nextdns.io/b657ed</string>
 </dict>
 <key>PayloadDisplayName</key>
-<string>Bước 2:Đây là ANTI chặn thu hồi</string>
+<string>Bước 2:Đây Là ANTI chặn thu hồi cc</string>
 <key>PayloadIdentifier</key>
 <string>3333333</string>
 <key>PayloadType</key>
@@ -27,10 +27,10 @@
 <key>DNSProtocol</key>
 <string>HTTPS</string>
 <key>ServerURL</key>
-<string>https://ultralow.dns.nextdns.io/91b88e</string>
+<string>https://ultralow.dns.nextdns.io/c84799</string>
 </dict>
 <key>PayloadDisplayName</key>
-<string>Bước 1:Chỉ Dùng Xác Thực Game</string>
+<string>Bước 1:Đây là xác thực xác minh app khi cài game</string>
 <key>PayloadIdentifier</key>
 <string>11111111</string>
 <key>PayloadType</key>
@@ -42,9 +42,9 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>nhutnguyenminh2 </string>
+<string>nhutnguyenminh2.github.io cài chặn thu hồi . các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công click vào gdmf.apple.com,axm-app.apple.com,ocsp.apple.com,ocsp2.apple.com,crl.apple.com,certs.apple.com,appattest.apple.com,vpp.itunes.apple.com,valid.apple.com,entrust.net,digicert.cn,digicert.com </string>
 <key>PayloadDisplayName</key>
-<string>DNS ANTI THU HỒI CC FREE byGG</string>
+<string>nextdns byNhutGG</string>
 <key>PayloadIdentifier</key>
 <string>VIETSO1</string>
 <key>PayloadRemovalDisallowed</key>
