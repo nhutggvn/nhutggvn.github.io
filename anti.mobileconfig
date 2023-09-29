@@ -11,7 +11,7 @@
 <string>https://ultralow.dns.nextdns.io/b657ed</string>
 </dict>
 <key>PayloadDisplayName</key>
-<string>Bước 2:Đây Là ANTI chặn thu hồi cc</string>
+<string>Bước 2:Đây Là ANTI thu hồi cc</string>
 <key>PayloadIdentifier</key>
 <string>3333333</string>
 <key>PayloadType</key>
@@ -30,7 +30,7 @@
 <string>https://ultralow.dns.nextdns.io/c84799</string>
 </dict>
 <key>PayloadDisplayName</key>
-<string>Bước 1:Đây là xác thực xác minh app khi cài game</string>
+<string>Bước 1:Cài game thì chọn cái này</string>
 <key>PayloadIdentifier</key>
 <string>11111111</string>
 <key>PayloadType</key>
@@ -44,7 +44,7 @@
 <key>PayloadDescription</key>
 <string>nhutnguyenminh2.github.io cài chặn thu hồi . các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công click vào gdmf.apple.com,axm-app.apple.com,ocsp.apple.com,ocsp2.apple.com,crl.apple.com,certs.apple.com,appattest.apple.com,vpp.itunes.apple.com,valid.apple.com,entrust.net,digicert.cn,digicert.com </string>
 <key>PayloadDisplayName</key>
-<string>nextdns byNhutGG</string>
+<string>DNS-over-HTTPS byNhutGG</string>
 <key>PayloadIdentifier</key>
 <string>VIETSO1</string>
 <key>PayloadRemovalDisallowed</key>
