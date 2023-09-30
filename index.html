@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NhutGG</title>
+    <title>Trang của bạn</title>
     <link rel="stylesheet" href="style.css">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
     <link rel="shortcut icon" href="https://cdn.bio.link/uploads/profile_pictures/2023-09-18/TLCYdyxx3SjtHUEC3QC7P91yhWjzZ4Fh.png" type="image/webp">
@@ -39,6 +39,7 @@
 </script>
 
     <style>
+      
         body,
         html {
             /*!* -ms-scroll-chaining: none;*/
@@ -1303,7 +1304,6 @@
         .subscribers-email-wrap.error-wrap .subsc-email {
             border-right: none
         }
-
         /*    !*background: -webkit-gradient(linear, left top, right top, color-stop(0, #aaa), color-stop(0.35, #aaa), color-stop(0.5, white), color-stop(0.65, #aaa), color-stop(1, #aaa));*!*/
 
         /*    !*-webkit-background-clip: text;*!*/
@@ -2792,7 +2792,18 @@
             position: relative;
             width: 100%
         }
-
+/* CSS cho text trắng */
+    .corner-box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(242, 242, 242, 0.5);
+        padding: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 10px;
+        z-index: 9999;
+        color: white; /* Đổi màu chữ thành màu trắng */
+    }
         .subscribe-input-group>input {
             flex: 1 1 auto;
             margin: 0;
@@ -5461,9 +5472,10 @@ Donate</span>
 	
 
 <div class="corner-box">
-        <p>Lượt Views: <span id="viewCount">21166</span></p>
-        <p>Người truy cập: <span id="visitorCount">245</span></p>
-    </div>
+    <p>Lượt Views: <span id="viewCount">21166</span></p>
+    <p>Người truy cập: <span id="visitorCount">245</span></p>
+</div>
+
 <!--Đây là đoạn ghi chú. Ghi chú này sẽ không hiển thị trên trình duyệt NhutGG97-->
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
