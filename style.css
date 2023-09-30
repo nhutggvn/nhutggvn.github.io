@@ -1,0 +1,28 @@
+/* Định dạng góc trái */
+.corner-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    z-index: 9999; /* Đảm bảo hiển thị phía trên các phần nội dung khác */
+}
+
+/* Định dạng số lượng views và người truy cập */
+.corner-box p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tùy chỉnh màu chữ hoặc thiết kế khác tùy theo mong muốn của bạn */
+#viewCount {
+    color: blue;
+    font-weight: bold;
+}
+
+#visitorCount {
+    color: green;
+    font-weight: bold;
+}
