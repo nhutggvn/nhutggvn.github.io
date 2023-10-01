@@ -42,11 +42,11 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>nhutnguyenminh2.github.io cài chặn thu hồi . các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công click vào gdmf.apple.com,axm-app.apple.com,ocsp.apple.com,ocsp2.apple.com,crl.apple.com,certs.apple.com,appattest.apple.com,vpp.itunes.apple.com,valid.apple.com,entrust.net,digicert.cn,digicert.com </string>
+<string>nhutnguyenminh2.github.io cài chặn thu hồi.lỗi cookie khi đăng nhập khi đang để b1,b2 thì chỉnh sang tự động rồi đăng nhập lại khi đăng nhập thành công thi chỉnh sang bước 2,LƯU LÝ: KHÔNG HACK 4G OR DÙNG VPN KHI DÙNG CẨU HÌNH NÀY LỞ HOẶC CỐ TÌNH BẬT THÌ AUTO DIE CC !!!các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công click vào gdmf.apple.com,axm-app.apple.com,ocsp.apple.com,ocsp2.apple.com,crl.apple.com,certs.apple.com,appattest.apple.com,vpp.itunes.apple.com,valid.apple.com,entrust.net,digicert.cn,digicert.com </string>
 <key>PayloadDisplayName</key>
 <string>DNS-over-HTTPS byNhutGG</string>
 <key>PayloadIdentifier</key>
-<string>VIETSO1</string>
+<string>ANTI</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadScope</key>
