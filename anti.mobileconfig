@@ -8,10 +8,10 @@
 <key>DNSProtocol</key>
 <string>HTTPS</string>
 <key>ServerURL</key>
-<string>https://ultralow.dns.nextdns.io/b657ed</string>
+<string>https://ultralow.dns.nextdns.io/b858ef</string>
 </dict>
 <key>PayloadDisplayName</key>
-<string>Bước 2:Đây Là ANTI thu hồi cc</string>
+<string>Bước 2:NextDNS-Chặn thu hồi chứng chỉ</string>
 <key>PayloadIdentifier</key>
 <string>3333333</string>
 <key>PayloadType</key>
@@ -27,7 +27,7 @@
 <key>DNSProtocol</key>
 <string>HTTPS</string>
 <key>ServerURL</key>
-<string>https://ultralow.dns.nextdns.io/c84799</string>
+<string>https://ultralow.dns.nextdns.io/e567c5</string>
 </dict>
 <key>PayloadDisplayName</key>
 <string>Bước 1:Cài game thì chọn cái này</string>
@@ -42,11 +42,18 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>nhutnguyenminh2.github.io cài chặn thu hồi.lỗi cookie khi đăng nhập khi đang để b1,b2 thì chỉnh sang tự động rồi đăng nhập lại khi đăng nhập thành công thi chỉnh sang bước 2,LƯU LÝ: KHÔNG HACK 4G OR DÙNG VPN KHI DÙNG CẨU HÌNH NÀY LỞ HOẶC CỐ TÌNH BẬT THÌ AUTO DIE CC !!!các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công click vào gdmf.apple.com,axm-app.apple.com,ocsp.apple.com,ocsp2.apple.com,crl.apple.com,certs.apple.com,appattest.apple.com,vpp.itunes.apple.com,valid.apple.com,entrust.net,digicert.cn,digicert.com </string>
+<string>Hi các bạn,đây là NextDNS chặn chứng chỉ free nên sẽ có giới hạn nhất định,nếu các bạn có quan tâm dns này hoặc muốn ổn định dns lâu dài thì hãy donate giúp mình lấy đó duy trì lâu dài
+--ví Momo :0345030913 (Nguyễn Minh Nhựt)-- mình sẽ update khi đạt giới hạn free dns cũng rủi ro !!
+- Lưu ý Khi dùng DNS
+- Không dùng Vpn ❎
+- Không tắt Nguồn IPhone ❎
+- Các lỗi khi gặp khi dùng dns lỗi cookie đăng nhập nếu gặp trường hợp này thì hãy chọn lại chế độ auto(tự động) sau khi đăng nhập xong nhớ chọn lại Bước 2 đê chặn thu hồi .
+- các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công >ocsp.apple.com,ocsp2.apple.com,crl.apple.com
+- còn muốn mở tên miền khi dùng dns đã bị blockads thì ib để add tên miền để hoặc động được Zalo:0345030913</string>
 <key>PayloadDisplayName</key>
 <string>DNS-over-HTTPS byNhutGG</string>
 <key>PayloadIdentifier</key>
-<string>ANTI</string>
+<string>BLOCKCER</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadScope</key>
