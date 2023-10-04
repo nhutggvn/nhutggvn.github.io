@@ -1,45 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 <key>PayloadContent</key>
 <array>
-<dict>
-<key>DNSSettings</key>
-<dict>
-<key>DNSProtocol</key>
-<string>HTTPS</string>
-<key>ServerURL</key>
-<string>https://ultralow.dns.nextdns.io/b858ef</string>
-</dict>
-<key>PayloadDisplayName</key>
-<string>Bước 2:NextDNS-Chặn thu hồi chứng chỉ</string>
-<key>PayloadIdentifier</key>
-<string>3333333</string>
-<key>PayloadType</key>
+
+       <dict>
+       <key>DNSSettings</key>
+       <dict>
+       <key>DNSProtocol</key>
+       <string>HTTPS</string>
+       <key>ServerURL</key>
+	<string>https://ultralow.dns.nextdns.io/b858ef</string>
+	</dict>
+	<key>PayloadDisplayName</key>
+	<string>Bước 2:NextDNS-BLOCKADS-CERT</string>
+	<key>PayloadIdentifier</key>
+	<string>3333333</string>
+	<key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
-<key>PayloadUUID</key>
-<string>3333333</string>
-<key>PayloadVersion</key>
-<integer>1</integer>
-</dict>
-<dict>
-<key>DNSSettings</key>
-<dict>
-<key>DNSProtocol</key>
-<string>HTTPS</string>
-<key>ServerURL</key>
-<string>https://ultralow.dns.nextdns.io/e567c5</string>
-</dict>
-<key>PayloadDisplayName</key>
-<string>Bước 1:Cài game thì chọn cái này</string>
-<key>PayloadIdentifier</key>
-<string>11111111</string>
-<key>PayloadType</key>
+	<key>PayloadUUID</key>
+	<string>3333333</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+       </dict>
+
+       <dict>
+       <key>DNSSettings</key>
+       <dict>
+       <key>DNSProtocol</key>
+       <string>HTTPS</string>
+       <key>ServerURL</key>
+       <string>https://ultralow.dns.nextdns.io/e567c5</string>
+	</dict>
+	<key>PayloadDisplayName</key>
+	<string>Bước 1:Cài game thì chọn cái này</string>
+	<key>PayloadIdentifier</key>
+	<string>11111111</string>
+	<key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
-<key>PayloadUUID</key>
-<string>111111111</string>
-<key>PayloadVersion</key>
-<integer>1</integer>
-</dict>
+	<key>PayloadUUID</key>
+	<string>111111111</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+       </dict>
+
+
 </array>
 <key>PayloadDescription</key>
 <string>Hi các bạn,đây là NextDNS chặn chứng chỉ free nên sẽ có giới hạn nhất định,nếu các bạn có quan tâm dns này hoặc muốn ổn định dns lâu dài thì hãy donate giúp mình lấy đó duy trì lâu dài
@@ -49,9 +55,11 @@
 - Không tắt Nguồn IPhone ❎
 - Các lỗi khi gặp khi dùng dns lỗi cookie đăng nhập nếu gặp trường hợp này thì hãy chọn lại chế độ auto(tự động) sau khi đăng nhập xong nhớ chọn lại Bước 2 đê chặn thu hồi .
 - các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công >ocsp.apple.com,ocsp2.apple.com,crl.apple.com
-- còn muốn mở tên miền khi dùng dns đã bị blockads thì ib để add tên miền để hoặc động được Zalo:0345030913</string>
+- còn muốn mở tên miền khi dùng dns đã bị blockads thì ib để add tên miền để hoặc động được Zalo:0345030913
+
+</string>
 <key>PayloadDisplayName</key>
-<string>DNS-over-HTTPS byNhutGG</string>
+<string>ANTI Thu Hồi</string>
 <key>PayloadIdentifier</key>
 <string>BLOCKCER</string>
 <key>PayloadRemovalDisallowed</key>
@@ -66,3 +74,23 @@
 <integer>1</integer>
 </dict>
 </plist>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
