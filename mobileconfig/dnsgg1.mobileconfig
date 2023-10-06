@@ -11,7 +11,7 @@
        <key>DNSProtocol</key>
        <string>HTTPS</string>
        <key>ServerURL</key>
-	<string>https://ultralow.dns.nextdns.io/b858ef</string>
+	<string>https://ultralow.dns.nextdns.io/4999fa</string>
 	</dict>
 	<key>PayloadDisplayName</key>
 	<string>Bước 2: Anti Chứng Chỉ</string>
@@ -31,7 +31,7 @@
        <key>DNSProtocol</key>
        <string>HTTPS</string>
        <key>ServerURL</key>
-       <string>https://ultralow.dns.nextdns.io/e567c5</string>
+       <string>https://ultralow.dns.nextdns.io/38f952</string>
 	</dict>
 	<key>PayloadDisplayName</key>
 	<string>Bước 1:Xác Thực Game</string>
