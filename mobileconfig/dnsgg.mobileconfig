@@ -14,7 +14,7 @@
 	<string>https://ultralow.dns.nextdns.io/b858ef</string>
 	</dict>
 	<key>PayloadDisplayName</key>
-	<string>Bước 2: Anti Chứng Chỉ</string>
+	<string>Bước 2: Chặn thu hồi Chứng Chỉ</string>
 	<key>PayloadIdentifier</key>
 	<string>3333333</string>
 	<key>PayloadType</key>
@@ -34,7 +34,7 @@
        <string>https://ultralow.dns.nextdns.io/e567c5</string>
 	</dict>
 	<key>PayloadDisplayName</key>
-	<string>Bước 1:Xác Thực Game</string>
+	<string>Bước 1:Xác Minh,Xác Thực App</string>
 	<key>PayloadIdentifier</key>
 	<string>11111111</string>
 	<key>PayloadType</key>
