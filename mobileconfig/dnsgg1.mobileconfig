@@ -11,7 +11,7 @@
        <key>DNSProtocol</key>
        <string>HTTPS</string>
        <key>ServerURL</key>
-	<string>https://ultralow.dns.nextdns.io/4999fa</string>
+	<string>https://ultralow.dns.nextdns.io/afc92e</string>
 	</dict>
 	<key>PayloadDisplayName</key>
 	<string>Bước 2: Chặn Thu hồi chứng chỉ</string>
@@ -31,7 +31,7 @@
        <key>DNSProtocol</key>
        <string>HTTPS</string>
        <key>ServerURL</key>
-       <string>https://ultralow.dns.nextdns.io/38f952</string>
+       <string>https://ultralow.dns.nextdns.io/acab89</string>
 	</dict>
 	<key>PayloadDisplayName</key>
 	<string>Bước 1:Xác Minh,Xác thực app</string>
@@ -61,7 +61,7 @@
 <key>PayloadDisplayName</key>
 <string>DNS-over-HTTPS ByNhutGG</string>
 <key>PayloadIdentifier</key>
-<string>NhutGG_DNS</string>
+<string>dns3</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadScope</key>
