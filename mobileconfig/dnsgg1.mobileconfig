@@ -14,7 +14,7 @@
 	<string>https://ultralow.dns.nextdns.io/afc92e</string>
 	</dict>
 	<key>PayloadDisplayName</key>
-	<string>Bước 2: Chặn Thu hồi chứng chỉ</string>
+	<string>Bước 2:Chặn Thu hồi</string>
 	<key>PayloadIdentifier</key>
 	<string>3333333</string>
 	<key>PayloadType</key>

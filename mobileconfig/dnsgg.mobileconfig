@@ -14,7 +14,7 @@
 	<string>https://ultralow.dns.nextdns.io/3761ad</string>
 	</dict>
 	<key>PayloadDisplayName</key>
-	<string>Bước 2: Chặn thu hồi Chứng Chỉ</string>
+	<string>Bước 2:Chặn thu hồi</string>
 	<key>PayloadIdentifier</key>
 	<string>3333333</string>
 	<key>PayloadType</key>
