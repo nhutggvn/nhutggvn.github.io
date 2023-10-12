@@ -16,7 +16,7 @@
 	<key>PayloadDisplayName</key>
 	<string>Bước 2:Chặn thu hồi</string>
 	<key>PayloadIdentifier</key>
-	<string>3333333</string>
+	<string>com.apple.dnsSettings.managed.a1011a3e-8fc7-450c-8097-a3edf5986f2a</string>
 	<key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 	<key>PayloadUUID</key>
@@ -31,12 +31,12 @@
        <key>DNSProtocol</key>
        <string>HTTPS</string>
        <key>ServerURL</key>
-       <string>https://ultralow.dns.nextdns.io/2fe73b</string>
+       <string>https://ku2898ednt.cloudflare-gateway.com/dns-query</string>
 	</dict>
 	<key>PayloadDisplayName</key>
 	<string>Bước 1:Xác Minh,Xác thực app</string>
 	<key>PayloadIdentifier</key>
-	<string>11111111</string>
+	<string>com.apple.dnsSettings.managed.3c4a65a2-cea6-4fc3-a733-30e4e6072702</string>
 	<key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 	<key>PayloadUUID</key>
@@ -59,7 +59,7 @@
 
 </string>
 <key>PayloadDisplayName</key>
-<string>DNS PRO BY NHUTGG</string>
+<string>Cloudflare ByGG</string>
 <key>PayloadIdentifier</key>
 <string>dns3</string>
 <key>PayloadRemovalDisallowed</key>
