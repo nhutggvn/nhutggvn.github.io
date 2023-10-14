@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+
+       <dict>
+       <key>DNSSettings</key>
+       <dict>
+       <key>DNSProtocol</key>
+       <string>HTTPS</string>
+       <key>ServerURL</key>
+	<string>https://ultralow.dns.nextdns.io/bbd859</string>
+	</dict>
+	<key>PayloadDisplayName</key>
+	<string>Bước 2:Chặn thu hồi</string>
+	<key>PayloadIdentifier</key>
+	<string>3333333</string>
+	<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+	<key>PayloadUUID</key>
+	<string>3333333</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+       </dict>
+
+       <dict>
+       <key>DNSSettings</key>
+       <dict>
+       <key>DNSProtocol</key>
+       <string>HTTPS</string>
+       <key>ServerURL</key>
+       <string>https://ultralow.dns.nextdns.io/e7af58</string>
+	</dict>
+	<key>PayloadDisplayName</key>
+	<string>Bước 1:Xác Minh,Xác thực app</string>
+	<key>PayloadIdentifier</key>
+	<string>11111111</string>
+	<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+	<key>PayloadUUID</key>
+	<string>111111111</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+       </dict>
+
+
+</array>
+<key>PayloadDescription</key>
+<string>
+Thông báo: DNS HIỆN TẠI đang rất là ổn nha,mọi người hạn chế đổi tới đổi lui giữa b1 & b2 or nhảy sang tự động nha apple quét cái là die hết cc hàng loạt đó !
++ khi dùng dns vẫn cài cc die cài ứng dụng binh thường kệ đừng quan tâm là đang sống or chết .
+lí do tại sao dùng DNS?
+-Vì khi bạn sữ dụng chứng chỉ free thì có thể cài và dùng bình thường nhưng thời gian dùng ngắn có thể từ 5 đến 7 ngày,nhưng khi dùng DNS thì nó chặn các tên miền của apple nên thời gian dùng lâu hơn ổn định hơn có thể kéo dài vài tháng chả sao lưu ý rằng khi sữ dụng DNS không được dùng VPN hoặc hack 4G Thì DNS này không dùng được .
+hướng dẫn chi tiết về DNS Nhóm:
+1.bắt đầu tải ứng dụng trực tiếp qua bất cứ nền tản nào thì mọi người chọn Bước 2.
+2.khi tải được ứng dụng tiếp theo là xác minh,xác thực tin cậy nếu thông báo thì vào chọn lại bước 1 rồi chuyển sang xác minh.
+3.sau khi xác minh xong vào được và dụng được ứng dụng nhớ chọn lại bước 2 để chặn thu hồi chứng chỉ bước này rất quan trọng vì để dụng lâu dài đừng quên .
+👉theo dõi nhóm telegram:https://t.me/dnscert
+👉link web cập nhập dns và nhiều chứng chỉ mới:https://nhutnguyenminh2.github.io/
+👉xem video nhân bản bằng chứng chỉ thu hồi
+Lưu Ý:không dung VPN HOẶC HACK 4G khi dùng cẩu hình DNS này 
+Lưu Ý:lỗi đăng nhập cookie khi đăng nhập nếu gặp tình trạng này từ bước 2 ,chuyển sang b1 or auto khi đăng nhập vào game xong bật lại b2 ,done.
+
+</string>
+<key>PayloadDisplayName</key>
+<string>DNS-over-HTTPS 14.10</string>
+<key>PayloadIdentifier</key>
+<string>dns3</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadScope</key>
+<string>User</string>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>00000000</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
