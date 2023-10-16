@@ -13,7 +13,7 @@ always-reject-url-rewrite = false
 private-ip-answer = true
 # direct domain fail to resolve use proxy rule
 dns-direct-fallback-proxy = true
-update-url = http://pay2.gtvietso1.com/caicc
+update-url = https://github.com/nhutnguyenminh2/nhutnguyenminh2.github.io/raw/main/conf/xacminhapp.conf
 
 [Rule]
 DOMAIN,https://www.apple.com/certificateauthority/,REJECT
