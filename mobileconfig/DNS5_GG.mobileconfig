@@ -65,7 +65,7 @@ Lưu Ý:lỗi đăng nhập cookie khi đăng nhập nếu gặp tình trạng n
 
 </string>
 <key>PayloadDisplayName</key>
-<string>DNS-over-HTTPS 14.10</string>
+<string>DNS-over-HTTPS FREE</string>
 <key>PayloadIdentifier</key>
 <string>dns3</string>
 <key>PayloadRemovalDisallowed</key>
