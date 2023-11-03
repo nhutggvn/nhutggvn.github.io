@@ -1,0 +1,57 @@
+[02-Nov-2023 06:56:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 06:56:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 52
+[02-Nov-2023 07:00:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:00:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nhutggio/public_html/index.php on line 56
+[02-Nov-2023 07:01:52 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 9
+[02-Nov-2023 07:01:52 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 15
+[02-Nov-2023 07:01:53 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 17
+[02-Nov-2023 07:02:02 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 9
+[02-Nov-2023 07:02:02 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 15
+[02-Nov-2023 07:02:02 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 17
+[02-Nov-2023 07:02:56 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 9
+[02-Nov-2023 07:02:56 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 15
+[02-Nov-2023 07:02:56 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 17
+[02-Nov-2023 07:05:31 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 10
+[02-Nov-2023 07:05:31 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 16
+[02-Nov-2023 07:05:31 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 18
+[02-Nov-2023 07:05:35 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 10
+[02-Nov-2023 07:05:35 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 16
+[02-Nov-2023 07:05:35 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 18
+[02-Nov-2023 07:05:37 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 10
+[02-Nov-2023 07:05:37 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 16
+[02-Nov-2023 07:05:37 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 18
+[02-Nov-2023 07:06:08 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 10
+[02-Nov-2023 07:06:08 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 16
+[02-Nov-2023 07:06:08 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 18
+[02-Nov-2023 07:08:46 UTC] PHP Warning:  file_get_contents(password.txt): failed to open stream: No such file or directory in /home/nhutggio/public_html/index.php on line 10
+[02-Nov-2023 07:08:46 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 16
+[02-Nov-2023 07:08:47 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 18
+[02-Nov-2023 07:09:01 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 35
+[02-Nov-2023 07:09:01 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 37
+[02-Nov-2023 07:09:02 UTC] PHP Warning:  curl_setopt(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 35
+[02-Nov-2023 07:09:03 UTC] PHP Warning:  curl_exec(): Filename cannot be empty in /home/nhutggio/public_html/index.php on line 37
