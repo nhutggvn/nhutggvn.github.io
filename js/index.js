@@ -6120,22 +6120,22 @@ var textDiv = document.createElement("div");
 textDiv.id = "text";
 
 // Tạo phần tử p cho dòng chữ "Hello, chào mừng đến với profile"
-var welcomeText = document.createElement("p");
-welcomeText.style.fontFamily = "Quicksand";
-welcomeText.style.fontSize = "20px";
-welcomeText.textContent = "You must be of reasonable age to view this content!";
-welcomeText.style.marginBottom = "10px"; // Khoảng cách dưới 10px
+// var welcomeText = document.createElement("p");
+// welcomeText.style.fontFamily = "Quicksand";
+// welcomeText.style.fontSize = "20px";
+// welcomeText.textContent = "You must be of reasonable age to view this content!";
+// welcomeText.style.marginBottom = "10px"; // Khoảng cách dưới 10px
 
 
 // Tạo phần tử p cho dòng chữ "- Nhấn để tiếp tục -"
 var continueText = document.createElement("p");
 continueText.style.fontFamily = "Quicksand";
 continueText.style.fontSize = "15px";
-continueText.textContent = "Yes,I'm 18 or older";
+continueText.textContent = "I'm 18 or older";
 
 
 // Thêm các phần tử vào phần tử textDiv
-textDiv.appendChild(welcomeText);
+// textDiv.appendChild(welcomeText);
 textDiv.appendChild(continueText);
 
 
