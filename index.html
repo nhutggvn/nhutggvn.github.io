@@ -97,7 +97,7 @@
             <br>
             <br>
             <br>
-            
+            <button id="playPauseButton">Play</button> <!-- Thêm nút dừng -->      
  <!-- Đoạn form svg -->               
             <div class="code-container" style="border: 3px solid #12150e; border-radius: 5px; padding: 15px; margin-bottom: 15px; text-align: left;">
                 <svg style="color: blue" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16"> 
@@ -372,36 +372,54 @@
     function __music() {
         Randomsound__();
     }
+
     const music_List = [
         "https://files.catbox.moe/zi9ksr.mp3",
-        "https://files.catbox.moe/qxijiu.mp3",
-        "https://files.catbox.moe/i6c3wr.mp3",
-        "https://files.catbox.moe/gzijrn.mp3",
-        "https://files.catbox.moe/6eh6bu.mp3",
-        "https://files.catbox.moe/gghguj.mp3",
-        "https://files.catbox.moe/4ajb77.mp3",
-        "https://files.catbox.moe/vpvnvn.mp3",
-        "https://files.catbox.moe/c3vkth.mp3",
-        "https://files.catbox.moe/lj25y7.mp3",
-        "https://files.catbox.moe/pli73l.mp3",
-        "https://files.catbox.moe/r20fad.mp3", // Cuu van kip khong
-        "https://files.catbox.moe/71gf6e.mp3", // Đánh mat em
-        "https://files.catbox.moe/3f1gbh.mp3", // 2AM
-        "https://files.catbox.moe/l0y6x5.mp3", // Thời gian sẽ trả lời
-        "https://files.catbox.moe/sly2n7.mp3", // Cho em 1 lần yêu
-        "https://files.catbox.moe/l49x11.mp3", // Que boi
-        "https://thanhdieulua.ml/files/vtd_5.mp3",
-        "https://thanhdieulua.ml/files/Hoi-Uc-Ta-Da-Yeu.mp3"
-
-
+    "https://files.catbox.moe/qxijiu.mp3",
+    "https://files.catbox.moe/i6c3wr.mp3",
+    "https://files.catbox.moe/gzijrn.mp3",
+    "https://files.catbox.moe/6eh6bu.mp3",
+    "https://files.catbox.moe/gghguj.mp3",
+    "https://files.catbox.moe/4ajb77.mp3",
+    "https://files.catbox.moe/vpvnvn.mp3",
+    "https://files.catbox.moe/c3vkth.mp3",
+    "https://files.catbox.moe/lj25y7.mp3",
+    "https://files.catbox.moe/pli73l.mp3",
+    "https://files.catbox.moe/r20fad.mp3", // Cuu van kip khong
+    "https://files.catbox.moe/71gf6e.mp3", // Đánh mat em
+    "https://files.catbox.moe/3f1gbh.mp3", // 2AM
+    "https://files.catbox.moe/l0y6x5.mp3", // Thời gian sẽ trả lời
+    "https://files.catbox.moe/sly2n7.mp3", // Cho em 1 lần yêu
+    "https://files.catbox.moe/l49x11.mp3", // Que boi
+    "https://thanhdieulua.ml/files/vtd_5.mp3",
+    "https://thanhdieulua.ml/files/Hoi-Uc-Ta-Da-Yeu.mp3"
     ];
+
     //Random music
     let index = Math.floor(Math.random() * music_List.length);
     const audio = new Audio(music_List[index]);
+    let isPlaying = false; // Trạng thái phát nhạc
 
     function Randomsound__() {
-        audio.play();
+        if (isPlaying) {
+            audio.pause(); // Dừng nếu đang chạy
+            isPlaying = false;
+        } else {
+            audio.play(); // Phát nếu không đang chạy
+            isPlaying = true;
+        }
+        updateButtonText(); // Cập nhật văn bản trên nút
     }
+
+    function updateButtonText() {
+        const playPauseButton = document.getElementById('playPauseButton');
+        if (isPlaying) {
+            playPauseButton.textContent = 'Pause';
+        } else {
+            playPauseButton.textContent = 'Play';
+        }
+    }
+
     document.addEventListener("click", Randomsound__);
     audio.addEventListener("ended", function() {
         index = (index + 1) % music_List.length;
