@@ -372,7 +372,7 @@
 <script>
     const music_List = [
         // Danh sách URL nhạc của bạn
-    "https://files.catbox.moe/zi9ksr.mp3",
+        "https://files.catbox.moe/zi9ksr.mp3",
     "https://files.catbox.moe/qxijiu.mp3",
     "https://files.catbox.moe/i6c3wr.mp3",
     "https://files.catbox.moe/gzijrn.mp3",
@@ -438,13 +438,8 @@
     document.getElementById('nextButton').addEventListener("click", playNextSong);
 
     // Tự động phát nhạc khi trang web được tải
-    document.addEventListener('DOMContentLoaded', function() {
-        audio.play().then(() => {
-            isPlaying = true;
-            updateButtonText();
-        }).catch((error) => {
-            console.error('Error playing the audio:', error);
-        });
+    document.addEventListener("DOMContentLoaded", () => {
+        playAudio();
     });
 </script>
 
