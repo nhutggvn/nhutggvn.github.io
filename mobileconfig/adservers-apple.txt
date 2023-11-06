@@ -1,4 +1,4 @@
-! Title: AddhostGG
+! Title: NhutGG
 ! Description: Filter contains all ad networks and tracking frequently accessed.
 ! Last modified: 01 Nov 2023 16:06 UTC+7
 ! Version: 2311011606
