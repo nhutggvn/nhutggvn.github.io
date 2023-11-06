@@ -394,11 +394,12 @@
     ];
 
     let index = Math.floor(Math.random() * music_List.length);
-    const audio = new Audio(music_List[index]);
+    const audio = new Audio();
     let isPlaying = false;
 
     function playAudio() {
         if (!isPlaying) {
+            audio.src = music_List[index];
             audio.play().then(() => {
                 isPlaying = true;
                 updateButtonText();
