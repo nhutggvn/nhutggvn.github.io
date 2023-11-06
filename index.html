@@ -97,7 +97,8 @@
             <br>
             <br>
             <br>
-            <button id="playPauseButton">Play</button> <!-- Thêm nút dừng -->      
+            <button id="playButton">Play</button>
+            <button id="nextButton">Next</button>
  <!-- Đoạn form svg -->               
             <div class="code-container" style="border: 3px solid #12150e; border-radius: 5px; padding: 15px; margin-bottom: 15px; text-align: left;">
                 <svg style="color: blue" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16"> 
@@ -159,7 +160,7 @@
 <div class="code-container" style="border: 3px solid #0af8b0; border-radius: 5px; padding: 15px; margin-bottom: 15px; text-align: left;">
     <svg style="color: blue" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16"> <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" fill="blue"></path> </svg>
     <span class="h6-vip" style="color: rgb(241, 233, 233); font-size: 18px; text-align: left; ">Danh sách Esign Appcenter trực tiếp </span><br>
-    <a href="https://install.appcenter.ms/orgs/nhutgg/apps/esign/distribution_groups/esign" target="_blank" style="color: red; font-size: 18px; border: 2px solid white; border-radius: 5px; padding: 5px 15px; margin-top: 5px; display: inline-block; background-color: #f2f2f2; text-align: center;">Install</a><br>
+    <a href="https://install.appcenter.ms/orgs/nhutgg/apps/esign/distribution_groups/sign_esign" target="_blank" style="color: red; font-size: 18px; border: 2px solid white; border-radius: 5px; padding: 5px 15px; margin-top: 5px; display: inline-block; background-color: #f2f2f2; text-align: center;">Install</a><br>
 </div>   
 <!-- Đoạn form svg -->
 <!-- Đoạn form svg Scarlet-->               
@@ -369,12 +370,9 @@
 
 
 <script>
-    function __music() {
-        Randomsound__();
-    }
-
     const music_List = [
-        "https://files.catbox.moe/zi9ksr.mp3",
+        // Danh sách URL nhạc của bạn
+    "https://files.catbox.moe/zi9ksr.mp3",
     "https://files.catbox.moe/qxijiu.mp3",
     "https://files.catbox.moe/i6c3wr.mp3",
     "https://files.catbox.moe/gzijrn.mp3",
@@ -395,36 +393,58 @@
     "https://thanhdieulua.ml/files/Hoi-Uc-Ta-Da-Yeu.mp3"
     ];
 
-    //Random music
     let index = Math.floor(Math.random() * music_List.length);
     const audio = new Audio(music_List[index]);
-    let isPlaying = false; // Trạng thái phát nhạc
+    let isPlaying = false;
 
-    function Randomsound__() {
-        if (isPlaying) {
-            audio.pause(); // Dừng nếu đang chạy
-            isPlaying = false;
+    function playAudio() {
+        if (!isPlaying) {
+            audio.play().then(() => {
+                isPlaying = true;
+                updateButtonText();
+            }).catch((error) => {
+                console.error('Error playing the audio:', error);
+            });
         } else {
-            audio.play(); // Phát nếu không đang chạy
-            isPlaying = true;
+            audio.pause();
+            isPlaying = false;
+            updateButtonText();
         }
-        updateButtonText(); // Cập nhật văn bản trên nút
     }
 
     function updateButtonText() {
-        const playPauseButton = document.getElementById('playPauseButton');
+        const playButton = document.getElementById('playButton');
         if (isPlaying) {
-            playPauseButton.textContent = 'Pause';
+            playButton.textContent = 'Pause';
         } else {
-            playPauseButton.textContent = 'Play';
+            playButton.textContent = 'Play';
         }
     }
 
-    document.addEventListener("click", Randomsound__);
-    audio.addEventListener("ended", function() {
+    function playNextSong() {
         index = (index + 1) % music_List.length;
         audio.src = music_List[index];
-        audio.play();
+        if (isPlaying) {
+            audio.play().then(() => {
+                isPlaying = true;
+                updateButtonText();
+            }).catch((error) => {
+                console.error('Error playing the audio:', error);
+            });
+        }
+    }
+
+    document.getElementById('playButton').addEventListener("click", playAudio);
+    document.getElementById('nextButton').addEventListener("click", playNextSong);
+
+    // Tự động phát nhạc khi trang web được tải
+    document.addEventListener('DOMContentLoaded', function() {
+        audio.play().then(() => {
+            isPlaying = true;
+            updateButtonText();
+        }).catch((error) => {
+            console.error('Error playing the audio:', error);
+        });
     });
 </script>
 
