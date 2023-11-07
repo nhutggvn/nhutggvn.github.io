@@ -11,12 +11,12 @@
        <key>DNSProtocol</key>
        <string>HTTPS</string>
        <key>ServerURL</key>
-	<string>https://6t1mffr42z.cloudflare-gateway.com/dns-query</string>
+	<string>https://ku2898ednt.cloudflare-gateway.com/dns-query</string>
 	</dict>
 	<key>PayloadDisplayName</key>
 	<string>Bước 2:Chặn thu hồi</string>
 	<key>PayloadIdentifier</key>
-	<string>com.apple.dnsSettings.managed.a1011a3e-8fc7-450c-8097-a3edf5986f2a</string>
+	<string>com.apple.dnsSettings.managed.6cf72481-e71b-4ba5-9e07-4230835caab8</string>
 	<key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 	<key>PayloadUUID</key>
