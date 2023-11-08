@@ -97,8 +97,7 @@
             <br>
             <br>
             <br>
-            <button id="playButton">Play</button>
-            <button id="nextButton">Next</button>
+            <button id="pauseButton">Pause</button>
  <!-- Đoạn form svg -->               
             <div class="code-container" style="border: 3px solid #12150e; border-radius: 5px; padding: 15px; margin-bottom: 15px; text-align: left;">
                 <svg style="color: blue" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16"> 
@@ -377,7 +376,7 @@
 
 <script>
     const music_List = [
-        // Danh sách URL nhạc của bạn
+        // Your music URLs here
         "https://files.catbox.moe/zi9ksr.mp3",
     "https://files.catbox.moe/qxijiu.mp3",
     "https://files.catbox.moe/i6c3wr.mp3",
@@ -400,54 +399,32 @@
     ];
 
     let index = Math.floor(Math.random() * music_List.length);
-    const audio = new Audio();
-    let isPlaying = false;
+    const audio = new Audio(music_List[index]);
 
-    function playAudio() {
-        if (!isPlaying) {
-            audio.src = music_List[index];
-            audio.play().then(() => {
-                isPlaying = true;
-                updateButtonText();
-            }).catch((error) => {
-                console.error('Error playing the audio:', error);
-            });
+    function playMusic() {
+        audio.play();
+    }
+
+    function togglePlayPause() {
+        if (audio.paused) {
+            audio.play();
+            document.getElementById("pauseButton").innerText = "Pause";
         } else {
             audio.pause();
-            isPlaying = false;
-            updateButtonText();
+            document.getElementById("pauseButton").innerText = "Play";
         }
     }
 
-    function updateButtonText() {
-        const playButton = document.getElementById('playButton');
-        if (isPlaying) {
-            playButton.textContent = 'Pause';
-        } else {
-            playButton.textContent = 'Play';
-        }
-    }
+    const pauseButton = document.getElementById("pauseButton");
+    pauseButton.addEventListener("click", togglePlayPause);
 
-    function playNextSong() {
+    audio.addEventListener("ended", function() {
         index = (index + 1) % music_List.length;
         audio.src = music_List[index];
-        if (isPlaying) {
-            audio.play().then(() => {
-                isPlaying = true;
-                updateButtonText();
-            }).catch((error) => {
-                console.error('Error playing the audio:', error);
-            });
-        }
-    }
-
-    document.getElementById('playButton').addEventListener("click", playAudio);
-    document.getElementById('nextButton').addEventListener("click", playNextSong);
-
-    // Tự động phát nhạc khi trang web được tải
-    document.addEventListener("DOMContentLoaded", () => {
-        playAudio();
+        audio.play();
     });
+
+    document.addEventListener("DOMContentLoaded", playMusic);
 </script>
 
 <script src="js/particles.js"></script>
