@@ -1011,3 +1011,7 @@ h2 {
     pointer-events: none;
 }
 
+#info span {
+    color: white;
+}
+

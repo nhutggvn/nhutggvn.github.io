@@ -1,9 +1,3 @@
-// Config content (json): this configuration is applied to the particles
-// Refer to https://github.com/VincentGarreau/particles.js/ to customize this file
-// Background color and other properties are in main.css
-
-// This little piece of script changes the colors depending on the current month
-// The first color of each array is the most used in the respective month
 date = new Date();
 janColors = ["#0099ff", "#ffffff"]
 febColors = ["#ffffff", "#9900ff"]
@@ -6047,8 +6041,10 @@ show_date_time();
 
 function updateInfo(ipAddress, city, country) {
     const infoElement = document.getElementById('info');
-    infoElement.textContent = `Your IP: ${ipAddress}`;
-    infoElement.textContent += `\nYour Address: ${city}, ${country}`;
+    infoElement.innerHTML = `
+        <p>Your IP: ${ipAddress}</p>
+        <p>Your Address: ${city}, ${country}</p>
+    `;
 }
 
 function displayInfo() {
@@ -6057,22 +6053,19 @@ function displayInfo() {
         .then(data => {
             const ipAddress = data.ip;
 
-            setTimeout(() => {
-                fetch(`https://ipapi.co/${ipAddress}/json/`)
-                    .then(response => response.json())
-                    .then(data => {
-                        const city = data.city;
-                        const country = data.country_name;
-                        updateInfo(ipAddress, city, country);
-
-                        setTimeout(displayInfo, 1500);
-                    })
-                    .catch(error => {
-                        console.error('Lỗi khi lấy thông tin vị trí:', error);
-                        updateInfo(ipAddress, "Không thể lấy thông tin vị trí", "");
-                        setTimeout(displayInfo, 1500);
-                    });
-            }, 2000);
+            fetch(`https://ipapi.co/${ipAddress}/json/`)
+                .then(response => response.json())
+                .then(data => {
+                    const city = data.city;
+                    const country = data.country_name;
+                    updateInfo(ipAddress, city, country);
+                    setTimeout(displayInfo, 1500);
+                })
+                .catch(error => {
+                    console.error('Lỗi khi lấy thông tin vị trí:', error);
+                    updateInfo(ipAddress, "Không thể lấy thông tin vị trí", "");
+                    setTimeout(displayInfo, 1500);
+                });
         })
         .catch(error => {
             console.error('Lỗi khi kiểm tra địa chỉ IP:', error);
@@ -6082,6 +6075,7 @@ function displayInfo() {
 }
 
 displayInfo();
+
 
 
 
@@ -6150,44 +6144,6 @@ overlay.addEventListener("click", function() {
     // Thêm mã JavaScript của bạn để bắt đầu phát nhạc hoặc thực hiện các hành động khác ở đây
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    var keyElement = document.getElementById("key");
 
-    // Kiểm tra xem đã có key trong localStorage chưa
-    var storedKey = localStorage.getItem("generatedKey");
-
-    if (storedKey) {
-        keyElement.textContent = storedKey;
-    } else {
-        // Nếu chưa có key, thì sinh và lưu vào localStorage
-        function generateRandomKey() {
-            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-            var key = '';
-            for (var i = 0; i < 16; i++) { // Đổi 10 thành 16 để có key 16 ký tự
-                key += characters.charAt(Math.floor(Math.random() * characters.length));
-            }
-            return key;
-        }
-
-        var newKey = generateRandomKey();
-        keyElement.textContent = newKey;
-
-        // Lưu key vào localStorage
-        localStorage.setItem("generatedKey", newKey);
-    }
-
-    // Hàm sao chép key vào clipboard
-    function copyKey() {
-        var r = document.createRange();
-        r.selectNode(keyElement);
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(r);
-        document.execCommand('copy');
-        window.getSelection().removeAllRanges();
-    }
-
-    // Khi người dùng nhấp vào key, thực hiện hàm copyKey
-    keyElement.addEventListener("click", copyKey);
-});
 
 
