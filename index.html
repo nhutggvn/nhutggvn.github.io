@@ -92,7 +92,12 @@
             <br>
             <br>
             <br>
-            <button id="pauseButton">Pause</button>
+            <button id="pauseButton">Bấm 2 lần để dừng âm nhạc</button>
+
+
+
+
+
  <!-- Đoạn form svg -->               
             <div class="code-container" style="border: 3px solid #12150e; border-radius: 5px; padding: 15px; margin-bottom: 15px; text-align: left;">
                 <svg style="color: blue" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16"> 
@@ -347,10 +352,8 @@
     }
 </style>
 <script>
-    function __music() {
-        Randomsound__();
-    }
-    const music_List = [
+const music_List = [
+    // Danh sách các bài hát...
         "https://files.catbox.moe/zi9ksr.mp3",
         "https://files.catbox.moe/qxijiu.mp3",
         "https://files.catbox.moe/i6c3wr.mp3",
@@ -370,23 +373,43 @@
         "https://files.catbox.moe/l49x11.mp3", // Que boi
         "https://thanhdieulua.ml/files/vtd_5.mp3",
         "https://thanhdieulua.ml/files/Hoi-Uc-Ta-Da-Yeu.mp3"
+];
 
+let index = Math.floor(Math.random() * music_List.length);
+const audio = new Audio(music_List[index]);
+let isPlaying = false;
 
-    ];
-    //Random music
-    let index = Math.floor(Math.random() * music_List.length);
-    const audio = new Audio(music_List[index]);
-
-    function Randomsound__() {
+function togglePlay() {
+    if (isPlaying) {
+        audio.pause();
+        isPlaying = false;
+        pauseButton.innerHTML = "Play";
+    } else {
         audio.play();
+        isPlaying = true;
+        pauseButton.innerHTML = "Pause";
     }
-    document.addEventListener("click", Randomsound__);
-    audio.addEventListener("ended", function() {
-        index = (index + 1) % music_List.length;
-        audio.src = music_List[index];
-        audio.play();
-    });
+}
+
+const pauseButton = document.getElementById("pauseButton");
+pauseButton.addEventListener("click", togglePlay);
+
+audio.addEventListener("ended", function() {
+    index = (index + 1) % music_List.length;
+    audio.src = music_List[index];
+    audio.play();
+});
+
+function Randomsound__() {
+    audio.play();
+}
+
+Randomsound__();
+    
+
 </script>
+
+
 <script src="js/particles.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 </body>
