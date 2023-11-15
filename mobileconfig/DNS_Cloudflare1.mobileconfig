@@ -3,9 +3,15 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>Cloudflare DNS ByNhutGG</string>
+    <string>DNS Cloudflare byNhutGG</string>
     <key>PayloadDescription</key>
-    <string>This configuration enables CloudflareDNS ByNhutGG on all networks using the native encrypted DNS feature.</string>
+    <string>📣📣📣Instructions for using DNS should be read:
+1.DO NOT use VPN when using this DNS configuration.
+2.DO NOT use another DNS when using this DNS configuration.
+3. DO NOT turn off the power when using this DNS configuration. If so, switch to the plane first.
+4.When using DNS, you can install a live certificate or cc die to register the application as usual, so don't care if it has been revoked or not.
+Join the group for support: https://t.me/dnscert
+</string>
     <key>PayloadIdentifier</key>
     <string>com.cloudflare.warp.6b01a210-dae3-4aee-b94b-1e0c32e564ac.profile</string>
     <key>PayloadScope</key>
