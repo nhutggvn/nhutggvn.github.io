@@ -1,96 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-<key>PayloadContent</key>
-<array>
-
-       <dict>
-       <key>DNSSettings</key>
-       <dict>
-       <key>DNSProtocol</key>
-       <string>HTTPS</string>
-       <key>ServerURL</key>
-	<string>https://ultralow.dns.nextdns.io/1c792f</string>
-	</dict>
-	<key>PayloadDisplayName</key>
-	<string>Bước 2:Chặn thu hồi</string>
-	<key>PayloadIdentifier</key>
-	<string>3333333</string>
-	<key>PayloadType</key>
-<string>com.apple.dnsSettings.managed</string>
-	<key>PayloadUUID</key>
-	<string>3333333</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-       </dict>
-
-       <dict>
-       <key>DNSSettings</key>
-       <dict>
-       <key>DNSProtocol</key>
-       <string>HTTPS</string>
-       <key>ServerURL</key>
-       <string>https://ultralow.dns.nextdns.io/2fe73b</string>
-	</dict>
-	<key>PayloadDisplayName</key>
-	<string>Bước 1:Xác Minh,Xác thực app</string>
-	<key>PayloadIdentifier</key>
-	<string>11111111</string>
-	<key>PayloadType</key>
-<string>com.apple.dnsSettings.managed</string>
-	<key>PayloadUUID</key>
-	<string>111111111</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
-       </dict>
-
-
-</array>
-<key>PayloadDescription</key>
-<string>Hi các bạn,đây là NextDNS chặn chứng chỉ free nên sẽ có giới hạn nhất định,nếu các bạn có quan tâm dns này hoặc muốn ổn định dns lâu dài thì hãy donate giúp mình lấy đó duy trì lâu dài
---ví Momo :0345030913 (Nguyễn Minh Nhựt)-- mình sẽ update khi đạt giới hạn free dns cũng rủi ro !!
-- Lưu ý Khi dùng DNS
-- Không dùng Vpn ❎
-- Không tắt Nguồn IPhone ❎
-- Các lỗi khi gặp khi dùng dns lỗi cookie đăng nhập nếu gặp trường hợp này thì hãy chọn lại chế độ auto(tự động) sau khi đăng nhập xong nhớ chọn lại Bước 2 đê chặn thu hồi .
-- các tên miền sao nếu để (safari cannot open the page because the address is invalid ) là đã chặn chứng chỉ thành công >ocsp.apple.com,ocsp2.apple.com,crl.apple.com
-- còn muốn mở tên miền khi dùng dns đã bị blockads thì ib để add tên miền để hoặc động được Zalo:0345030913
-
-</string>
-<key>PayloadDisplayName</key>
-<string>DNS PRO BY NHUTGG</string>
-<key>PayloadIdentifier</key>
-<string>dns3</string>
-<key>PayloadRemovalDisallowed</key>
-<false/>
-<key>PayloadScope</key>
-<string>User</string>
-<key>PayloadType</key>
-<string>Configuration</string>
-<key>PayloadUUID</key>
-<string>00000000</string>
-<key>PayloadVersion</key>
-<integer>1</integer>
-</dict>
-</plist>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>NextDNS (NhutGG)</string>
+    <key>PayloadDescription</key>
+    <string>📣📣📣Instructions for using DNS should be read:
+1.DO NOT use VPN when using this DNS configuration.
+2.DO NOT use another DNS when using this DNS configuration.
+3. DO NOT turn off the power when using this DNS configuration. If so, switch to the plane first.
+4.When using DNS, you can install a live certificate or cc die to register the application as usual, so don't care if it has been revoked or not.
+Join the group for support: https://t.me/dnscert</string>
+    <key>PayloadIdentifier</key>
+    <string>io.nextdns.4de5e2.profile</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.4de5e2</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://apple.dns.nextdns.io/4de5e2/ByNhutGG</string>
+        </dict>
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>Action</key>
+            <string>EvaluateConnection</string>
+            <key>ActionParameters</key>
+            <array>
+              <dict>
+                <key>DomainAction</key>
+                <string>NeverConnect</string>
+                <key>Domains</key>
+                <array>
+                  <string>dav.orange.fr</string>
+                  <string>msg.t-mobile.com</string>
+                </array>
+              </dict>
+            </array>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>io.nextdns.4de5e2.profile.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.4de5e2.dnsSettings.managed</string>
+        <key>PayloadDisplayName</key>
+        <string>NextDNS (NhutGG)</string>
+        <key>PayloadOrganization</key>
+        <string>NhutGG</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+    </array>
+  </dict>
+</plist> 
