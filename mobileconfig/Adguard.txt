@@ -4,7 +4,7 @@
 ! Version: 2311011606
 ! Blocked: 30 rules
 ! Expires: 1 days (update frequency)
-! Homepage: https://nhutnguyenminh2.github.io/hostsVN/
+! Homepage: https://github.com/nhutgg/nhutgg.github.io/blob/main/mobileconfig/adservers-apple.txt
 !
 ||appldnld.apple.com^
 ||appldnld.apple.com.akadns.net^
