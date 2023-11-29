@@ -1015,3 +1015,37 @@ h2 {
     color: white;
 }
 
+/* ---------------------------------------------------- HOOP APP icon */
+
+
+#link-box {
+    position: relative;
+    width: 100%;
+    border-radius: 23px;
+    box-shadow: 7px 7px 20px -5px rgb(0 0 0 / 40%);
+  }
+  
+  .link-item {
+    backdrop-filter: blur(1px);
+    position: relative;
+    display: grid;
+    grid-template-columns: 80px auto 72px;
+    height: 80px;
+    width: 100%;
+    background-color: #a3a3a352;
+    border-radius: 23px;
+    margin-bottom: 15px;
+    transition: all 250ms ease-in-out;
+    color: #ffffff;
+  }
+  
+  .link-item:hover {
+    background-color: #ffffff6b;
+  }
+  
+  
+  
+  .link-content {
+    margin-top: 20px;
+    max-width: 100%;
+  }
