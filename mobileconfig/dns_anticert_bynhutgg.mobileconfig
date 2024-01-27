@@ -121,27 +121,7 @@ Join the group for support: https://t.me/dnscert
 			<integer>1</integer>
 		</dict>
     
-    <dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-          <string>HTTPS</string>
-          <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/129b32/nhutggvn</string>
-			</dict>
-			<key>PayloadDisplayName</key>
-			<string>Block ADS(NextDNS)</string>
-			<key>PayloadIdentifier</key>
-			<string>io.nextdns.129b32.profile.dnsSettings.managed</string>
-			<key>PayloadOrganization</key>
-			<string>NextDNS Business</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.129b32.dnsSettings.managed</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
+    
 		<dict>
 			<key>DNSSettings</key>
 			<dict>
@@ -160,6 +140,27 @@ Join the group for support: https://t.me/dnscert
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
 			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.4de5e2.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://jvw55r1qgf.cloudflare-gateway.com/dns-query</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Block Ads 99%</string>
+			<key>PayloadIdentifier</key>
+			<string>com.cloudflare.warp.949cdd3f-ff41-43a6-b6ef-d561a5fc2c6b.profile</string>
+			<key>PayloadOrganization</key>
+			<string>Script Cloudflare</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.949cdd3f-ff41-43a6-b6ef-d561a5fc2c6b</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
