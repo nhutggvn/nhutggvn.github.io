@@ -62,9 +62,9 @@ Join the group for support: https://t.me/dnscert
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.6b01a210-dae3-4aee-b94b-1e0c32e564ac.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>V1 DNSCloudflare(Nhutgg)</string>
+        <string>V1 Anticert(NhutGG)</string>
         <key>PayloadOrganization</key>
-        <string>GG</string>
+        <string>Verified GG</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
       </dict>
@@ -108,11 +108,11 @@ Join the group for support: https://t.me/dnscert
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Default Revoke</string>
+			<string>Bảo vệ tắt nguồn</string>
 			<key>PayloadIdentifier</key>
 			<string>com.cloudflare.warp.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
 			<key>PayloadOrganization</key>
-			<string>GG</string>
+			<string>Power off protection</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -131,11 +131,11 @@ Join the group for support: https://t.me/dnscert
           <string>https://apple.dns.nextdns.io/4de5e2/ByNhutGG</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>V2 NextDNS Anticert</string>
+			<string>V2 Anticert(NhutGG)</string>
 			<key>PayloadIdentifier</key>
 			<string>io.nextdns.4de5e2.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
-			<string>NextDNS Business</string>
+			<string>Fix login Bank</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
