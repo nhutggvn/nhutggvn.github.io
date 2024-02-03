@@ -7,8 +7,7 @@
     <key>PayloadDescription</key>
     <string>📣Instructions for using DNS should read:
 1. Tuyệt đối Không Sữ dụng VPN sữ dụng cẩu hình DNS này
-2. Để xác minh ứng dụng bỏ chọn bảo về tắt nguồn và chọn V1 hoặc V2
-3. Trường hợp an toàn khi cài ứng dụng thành công tích chọn Bảo vệ tắt nguồn và V1
+2. Kết Hợp Tuỳ chỉnh Block default device và V1 Or v2 để hoạt động tốt nhất
 4. Sữ dụng chứng chỉ đã bị thu hồi sẽ giúp bạn dùng lâu dài nhất có thể
 Join the group for support: https://t.me/dnscert
 </string>
@@ -64,7 +63,7 @@ Join the group for support: https://t.me/dnscert
         <key>PayloadDisplayName</key>
         <string>V1 Anticert(NhutGG)</string>
         <key>PayloadOrganization</key>
-        <string>Xác Minh App</string>
+        <string>Cloudflare firewall policy</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
       </dict>
@@ -108,7 +107,7 @@ Join the group for support: https://t.me/dnscert
 			<key>PayloadIdentifier</key>
 			<string>com.cloudflare.warp.5A31FA24-FF8C-41EA-989E-F070820F2A80</string>
 			<key>PayloadOrganization</key>
-			<string>Không Xác Minh</string>
+			<string>Block default device</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -131,7 +130,7 @@ Join the group for support: https://t.me/dnscert
 			<key>PayloadIdentifier</key>
 			<string>io.nextdns.4de5e2.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
-			<string>Xác Minh App</string>
+			<string>NexDNS Business</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
