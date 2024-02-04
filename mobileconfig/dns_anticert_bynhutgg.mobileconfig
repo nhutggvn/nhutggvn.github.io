@@ -132,18 +132,18 @@ Join the group for support: https://t.me/dnscert
 				<key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/4de5e2/ByNhutGG</string>
+          <string>https://apple.dns.nextdns.io/d8ee28/nhutggvn</string>
 			</dict>
 			<key>PayloadDisplayName</key>
 			<string>V2 Anticert(NhutGG)</string>
 			<key>PayloadIdentifier</key>
-			<string>io.nextdns.4de5e2.profile.dnsSettings.managed</string>
+			<string>io.nextdns.d8ee28.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
 			<string>NexDNS Business</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.4de5e2.dnsSettings.managed</string>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.d8ee28.dnsSettings.managed</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
