@@ -101,15 +101,16 @@ Join the group for support: https://t.me/dnscert
           <string>ff.apple.com</string>
           <string>ff2.apple.com</string>
           <string>.ff.apple.com</string>
+          <string>appattest.apple.com</string>
+					<string>vpp.itunes.apple.com</string>
+					<string>comm-main.ess.apple.com</string>
+					<string>comm-cohort.ess.apple.com</string>
+					<string>axm-app.apple.com</string>
+					<string>gdmf.apple.com</string>
+					<string>guzzoni-apple-com.v.aaplimg.com</string>
+       
 				</array>
 			</dict>
-      <key>OnDemandRules</key>
-			<array>
-				<dict>
-					<key>Action</key>
-					<string>Connect</string>
-				</dict>
-			</array>
 			<key>PayloadDisplayName</key>
 			<string>Bảo vệ tắt nguồn</string>
 			<key>PayloadIdentifier</key>
@@ -133,13 +134,6 @@ Join the group for support: https://t.me/dnscert
           <key>ServerURL</key>
           <string>https://apple.dns.nextdns.io/4de5e2/ByNhutGG</string>
 			</dict>
-      <key>OnDemandRules</key>
-			<array>
-				<dict>
-					<key>Action</key>
-					<string>Connect</string>
-				</dict>
-			</array>
 			<key>PayloadDisplayName</key>
 			<string>V2 Anticert(NhutGG)</string>
 			<key>PayloadIdentifier</key>
@@ -161,13 +155,6 @@ Join the group for support: https://t.me/dnscert
           <key>ServerURL</key>
           <string>https://jvw55r1qgf.cloudflare-gateway.com/dns-query</string>
 			</dict>
-      <key>OnDemandRules</key>
-			<array>
-				<dict>
-					<key>Action</key>
-					<string>Connect</string>
-				</dict>
-			</array>
 			<key>PayloadDisplayName</key>
 			<string>Block Ads 99%</string>
 			<key>PayloadIdentifier</key>
