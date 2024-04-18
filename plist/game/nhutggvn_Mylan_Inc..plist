@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://github.com/nhutggvn/nhutggvn.github.io/blob/main/img/nhanpham.png</string>
+					<string>https://raw.githubusercontent.com/nhutggvn/nhutggvn.github.io/main/img/nhanpham.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://github.com/nhutggvn/nhutggvn.github.io/blob/main/img/nhanpham.png</string>
+					<string>https://raw.githubusercontent.com/nhutggvn/nhutggvn.github.io/main/img/nhanpham.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
