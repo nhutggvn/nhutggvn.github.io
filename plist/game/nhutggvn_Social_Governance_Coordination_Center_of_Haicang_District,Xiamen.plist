@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/nhutggvn/nhutggvn.github.io/main/img/nhanpham.png</string>
+					<string>https://nhutggvn.site/image/nhanpham.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,19 +27,19 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/nhutggvn/nhutggvn.github.io/main/img/nhanpham.png</string>
+					<string>https://nhutggvn.site/image/nhanpham.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.miniclip.agar.io</string>
+				<string>p3.xyz.yyyue.esign</string>
 				<key>bundle-version</key>
 				<string>1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>GoodLuck</string>
+				<string>ESign</string>
 			</dict>
 		</dict>
 	</array>
